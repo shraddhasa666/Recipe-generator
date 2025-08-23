@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 
 # Connect to local MongoDB
-client = MongoClient("mongodb://localhost:27017/")  # use local MongoDB
+client = MongoClient("mongodb://localhost:27017/")
 db = client["recipeDB"]
 recipes_collection = db["recipes"]
 
