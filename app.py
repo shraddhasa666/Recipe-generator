@@ -1,39 +1,36 @@
-from flask import Flask, request, jsonify
-from flask_cors import CORS
+from flask import Flask, jsonify, request
 from pymongo import MongoClient
+from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app)
+CORS(app)  # enable CORS for frontend requests
 
-# Connect to MongoDB Atlas
-client = MongoClient("mongodb+srv://43shrad:shrad2003@cluster0.oi9xlxj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+# Connect to local MongoDB
+client = MongoClient("mongodb://localhost:27017/")
 db = client["recipeDB"]
 recipes_collection = db["recipes"]
 
-# Route: Get all recipes
+# Route to get all recipes
 @app.route("/recipes", methods=["GET"])
-def get_all_recipes():
+def get_recipes():
     recipes = list(recipes_collection.find({}, {"_id": 0}))
     return jsonify(recipes)
 
-# Route: Strict search by multiple ingredients
-@app.route("/search", methods=["GET"])
+# Route to search recipes by strict ingredients
+@app.route("/recipes/search", methods=["GET"])
 def search_recipes():
-    # Get ingredients from query string
-    ingredients = request.args.getlist("ingredients")  # e.g. ?ingredients=egg&ingredients=milk
-
+    ingredients = request.args.get("ingredients")  # ?ingredients=egg,onion
     if not ingredients:
-        return jsonify({"error": "No ingredients provided"}), 400
+        return jsonify({"error": "Please provide ingredients"}), 400
 
-    # Convert all ingredients to lowercase for strict case-insensitive match
-    ingredients = [i.strip().lower() for i in ingredients]
+    # convert to lowercase and split by comma
+    ingredients_list = [i.strip().lower() for i in ingredients.split(",")]
 
-    # Strict search: recipe must contain ALL ingredients
-    query = {"ingredients": {"$all": ingredients}}
+    # strict match: recipe must contain all provided ingredients
+    query = {"ingredients": {"$all": ingredients_list}}
+    recipes = list(recipes_collection.find(query, {"_id": 0}))
 
-    results = list(recipes_collection.find(query, {"_id": 0}))
-
-    return jsonify(results)
+    return jsonify(recipes)
 
 if __name__ == "__main__":
     app.run(debug=True)

@@ -1,8 +1,7 @@
 from pymongo import MongoClient
 
-# Connect to MongoDB Atlas
-client = MongoClient("mongodb+srv://43shrad:shrad2003@cluster0.oi9xlxj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-
+# Connect to local MongoDB
+client = MongoClient("mongodb://localhost:27017/")  # use local MongoDB
 db = client["recipeDB"]
 recipes_collection = db["recipes"]
 
