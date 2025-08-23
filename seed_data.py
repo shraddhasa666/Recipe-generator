@@ -1,3 +1,4 @@
+import json
 from pymongo import MongoClient
 
 # Connect to local MongoDB
@@ -5,14 +6,9 @@ client = MongoClient("mongodb://localhost:27017/")
 db = client["recipeDB"]
 recipes_collection = db["recipes"]
 
-# List of recipes
-recipes = [
-    {"name": "Pasta", "ingredients": ["pasta", "tomato", "cheese", "olive oil"]},
-    {"name": "Omelette", "ingredients": ["egg", "salt", "onion", "oil"]},
-    {"name": "Salad", "ingredients": ["lettuce", "tomato", "cucumber", "lemon"]},
-    {"name": "Fried Rice", "ingredients": ["rice", "carrot", "peas", "soy sauce", "egg"]},
-    {"name": "Grilled Cheese", "ingredients": ["bread", "cheese", "butter"]},
-]
+# Load recipes from JSON file
+with open("recipes.json", "r") as f:
+    recipes = json.load(f)
 
 # Convert all ingredients to lowercase
 for recipe in recipes:
