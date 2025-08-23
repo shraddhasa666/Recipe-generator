@@ -1,66 +1,35 @@
-from flask import Flask
+from flask import Flask, request, jsonify
+from flask_cors import CORS
 from pymongo import MongoClient
 
 app = Flask(__name__)
+CORS(app)  # allow frontend to call backend
 
-# Replace <username> and <password> with your MongoDB Atlas credentials
-client = MongoClient("mongodb+srv://recipe_user:recipe123@cluster0.obfkhz2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+# Connect to MongoDB
+client = MongoClient("mongodb+srv://43shrad:shrad2003@cluster0.oi9xlxj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+db = client["recipeDB"]
+recipes_collection = db["recipes"]
 
-# Choose a database name (it will be created automatically if it doesn't exist)
-db = client["recipe_db"]
+# Route: Get all recipes
+@app.route("/recipes", methods=["GET"])
+def get_all_recipes():
+    recipes = list(recipes_collection.find({}, {"_id": 0}))
+    return jsonify(recipes)
 
-@app.route("/")
-def home():
-    return "MongoDB connection successful!"
-@app.route("/add_test_recipe")
-def add_test_recipe():
-    sample_recipe = {
-        "name": "Test Pasta",
-        "ingredients": ["pasta", "tomato sauce", "cheese"],
-        "cuisine": "Italian"
-    }
-    db.recipes.insert_one(sample_recipe)
-    return "Test recipe added!"
-
-from flask import request, jsonify
-
-@app.route("/search")
+# Route: Strict search by multiple ingredients
+@app.route("/search", methods=["GET"])
 def search_recipes():
-    ingredients = request.args.get("ingredients")
-    cuisine = request.args.get("cuisine")
+    ingredients = request.args.getlist("ingredients")  # e.g. ?ingredients=egg&ingredients=milk
 
-    ingredient_list = []
-    if ingredients:
-        ingredient_list = [ing.strip().lower() for ing in ingredients.split(",")]
+    if not ingredients:
+        return jsonify({"error": "No ingredients provided"}), 400
 
-    results = list(db.recipes.find({}, {"_id": 0}))
-    exact_matches = []
-    partial_matches = []
+    # Strict match: recipe must contain all given ingredients
+    query = {"ingredients": {"$all": ingredients}}
 
-    for recipe in results:
-        recipe_ingredients = [i.lower() for i in recipe["ingredients"]]
-        recipe_cuisine = recipe["cuisine"].lower()
+    results = list(recipes_collection.find(query, {"_id": 0}))
 
-        # Cuisine filter (if specified)
-        if cuisine and recipe_cuisine != cuisine.strip().lower():
-            continue
-
-        if ingredient_list:
-            if all(ing in recipe_ingredients for ing in ingredient_list):
-                exact_matches.append(recipe)
-            elif any(ing in recipe_ingredients for ing in ingredient_list):
-                partial_matches.append(recipe)
-        else:
-            exact_matches.append(recipe)  # No ingredients specified = include all
-
-    if exact_matches:
-        return jsonify(exact_matches)
-    elif partial_matches:
-        return jsonify(partial_matches)
-    else:
-        return jsonify({"message": "No matching recipes found"}), 404
-
-
+    return jsonify(results)
 
 if __name__ == "__main__":
     app.run(debug=True)
