@@ -3,9 +3,9 @@ from flask_cors import CORS
 from pymongo import MongoClient
 
 app = Flask(__name__)
-CORS(app)  # allow frontend to call backend
+CORS(app)
 
-# Connect to MongoDB
+# Connect to MongoDB Atlas
 client = MongoClient("mongodb+srv://43shrad:shrad2003@cluster0.oi9xlxj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 db = client["recipeDB"]
 recipes_collection = db["recipes"]
@@ -19,12 +19,16 @@ def get_all_recipes():
 # Route: Strict search by multiple ingredients
 @app.route("/search", methods=["GET"])
 def search_recipes():
+    # Get ingredients from query string
     ingredients = request.args.getlist("ingredients")  # e.g. ?ingredients=egg&ingredients=milk
 
     if not ingredients:
         return jsonify({"error": "No ingredients provided"}), 400
 
-    # Strict match: recipe must contain all given ingredients
+    # Convert all ingredients to lowercase for strict case-insensitive match
+    ingredients = [i.strip().lower() for i in ingredients]
+
+    # Strict search: recipe must contain ALL ingredients
     query = {"ingredients": {"$all": ingredients}}
 
     results = list(recipes_collection.find(query, {"_id": 0}))
