@@ -5,10 +5,14 @@
     "image": "pasta.jpg",
     "recipe": "Boil pasta. Make sauce with tomato and cheese. Mix and serve.",
     "prep_time": "10 mins",
-    "cook_time": "15 mins",
+    "cook_time": "20 mins",
     "cuisine": "Italian",
-    "meal_type": "Lunch/Dinner",
-    "notes": "Use fresh tomatoes for better taste."
+    "nutrition": {
+      "calories": 350,
+      "protein": "12g",
+      "carbs": "50g",
+      "fat": "10g"
+    }
   },
   {
     "name": "Omelette",
@@ -17,151 +21,27 @@
     "recipe": "Beat eggs. Fry with onion and salt. Serve hot.",
     "prep_time": "5 mins",
     "cook_time": "10 mins",
-    "cuisine": "Continental",
-    "meal_type": "Breakfast",
-    "notes": "Add herbs for extra flavor."
+    "cuisine": "French",
+    "nutrition": {
+      "calories": 200,
+      "protein": "14g",
+      "carbs": "2g",
+      "fat": "15g"
+    }
   },
   {
     "name": "Salad",
     "ingredients": ["lettuce", "tomato", "cucumber", "lemon"],
     "image": "salad.jpg",
     "recipe": "Chop all vegetables. Mix and drizzle lemon juice. Serve fresh.",
-    "prep_time": "10 mins",
+    "prep_time": "8 mins",
     "cook_time": "0 mins",
-    "cuisine": "Global",
-    "meal_type": "Snack/Lunch",
-    "notes": "Use seasonal vegetables for best flavor."
-  },
-  {
-    "name": "Fried Rice",
-    "ingredients": ["rice", "carrot", "peas", "soy sauce", "egg"],
-    "image": "fried_rice.jpg",
-    "recipe": "Cook rice. Stir-fry vegetables and egg. Mix with rice and soy sauce.",
-    "prep_time": "10 mins",
-    "cook_time": "15 mins",
-    "cuisine": "Chinese",
-    "meal_type": "Lunch/Dinner",
-    "notes": "Use leftover rice for best texture."
-  },
-  {
-    "name": "Grilled Cheese",
-    "ingredients": ["bread", "cheese", "butter"],
-    "image": "grilled_cheese.jpg",
-    "recipe": "Butter bread. Place cheese between slices. Grill until golden.",
-    "prep_time": "5 mins",
-    "cook_time": "5 mins",
-    "cuisine": "American",
-    "meal_type": "Snack",
-    "notes": "Use cheddar cheese for stronger flavor."
-  },
-  {
-    "name": "Pancakes",
-    "ingredients": ["flour", "milk", "egg", "sugar", "butter"],
-    "image": "pancakes.jpg",
-    "recipe": "Mix flour, milk, egg, and sugar. Cook on pan with butter. Serve warm.",
-    "prep_time": "10 mins",
-    "cook_time": "10 mins",
-    "cuisine": "American",
-    "meal_type": "Breakfast",
-    "notes": "Top with maple syrup or fruits."
-  },
-  {
-    "name": "Tomato Soup",
-    "ingredients": ["tomato", "onion", "garlic", "salt", "water"],
-    "image": "tomato_soup.jpg",
-    "recipe": "Cook tomatoes, onion, and garlic. Blend and boil with water and salt.",
-    "prep_time": "10 mins",
-    "cook_time": "15 mins",
-    "cuisine": "Continental",
-    "meal_type": "Lunch/Dinner",
-    "notes": "Serve with croutons."
-  },
-  {
-    "name": "Chocolate Cake",
-    "ingredients": ["flour", "cocoa powder", "sugar", "egg", "butter"],
-    "image": "chocolate_cake.jpg",
-    "recipe": "Mix all ingredients. Bake at 180°C for 25-30 minutes.",
-    "prep_time": "15 mins",
-    "cook_time": "30 mins",
-    "cuisine": "Dessert",
-    "meal_type": "Snack/Dessert",
-    "notes": "Let it cool before slicing."
-  },
-  {
-    "name": "Chicken Curry",
-    "ingredients": ["chicken", "onion", "tomato", "spices", "oil"],
-    "image": "chicken_curry.jpg",
-    "recipe": "Fry onion and spices. Add chicken and tomato. Cook until tender.",
-    "prep_time": "15 mins",
-    "cook_time": "30 mins",
-    "cuisine": "Indian",
-    "meal_type": "Lunch/Dinner",
-    "notes": "Serve with rice or roti."
-  },
-  {
-    "name": "Fruit Smoothie",
-    "ingredients": ["banana", "strawberry", "milk", "honey"],
-    "image": "fruit_smoothie.jpg",
-    "recipe": "Blend all ingredients until smooth. Serve chilled.",
-    "prep_time": "5 mins",
-    "cook_time": "0 mins",
-    "cuisine": "Global",
-    "meal_type": "Snack/Breakfast",
-    "notes": "Add yogurt for creaminess."
-  },
-  {
-    "name": "Veggie Stir Fry",
-    "ingredients": ["broccoli", "carrot", "bell pepper", "soy sauce", "garlic"],
-    "image": "veggie_stir_fry.jpg",
-    "recipe": "Chop vegetables. Stir fry with garlic and soy sauce for 5-7 mins.",
-    "prep_time": "10 mins",
-    "cook_time": "7 mins",
-    "cuisine": "Asian",
-    "meal_type": "Lunch/Dinner",
-    "notes": "Serve with steamed rice."
-  },
-  {
-    "name": "Banana Bread",
-    "ingredients": ["banana", "flour", "sugar", "egg", "butter"],
-    "image": "banana_bread.jpg",
-    "recipe": "Mash bananas, mix with other ingredients, bake at 175°C for 40 mins.",
-    "prep_time": "15 mins",
-    "cook_time": "40 mins",
-    "cuisine": "Dessert",
-    "meal_type": "Snack/Dessert",
-    "notes": "Use overripe bananas for better sweetness."
-  },
-  {
-    "name": "Mushroom Soup",
-    "ingredients": ["mushroom", "onion", "cream", "garlic", "salt", "water"],
-    "image": "mushroom_soup.jpg",
-    "recipe": "Cook mushrooms and onions. Blend with cream and simmer for 10 mins.",
-    "prep_time": "10 mins",
-    "cook_time": "15 mins",
-    "cuisine": "Continental",
-    "meal_type": "Lunch/Dinner",
-    "notes": "Garnish with parsley."
-  },
-  {
-    "name": "Greek Salad",
-    "ingredients": ["cucumber", "tomato", "feta cheese", "olive oil", "olives"],
-    "image": "greek_salad.jpg",
-    "recipe": "Chop vegetables. Mix with feta, olives, and olive oil.",
-    "prep_time": "10 mins",
-    "cook_time": "0 mins",
-    "cuisine": "Greek",
-    "meal_type": "Snack/Lunch",
-    "notes": "Serve chilled."
-  },
-  {
-    "name": "Spaghetti Bolognese",
-    "ingredients": ["spaghetti", "ground beef", "tomato", "onion", "garlic", "olive oil"],
-    "image": "spaghetti_bolognese.jpg",
-    "recipe": "Cook spaghetti. Prepare sauce with beef and tomatoes. Mix and serve.",
-    "prep_time": "15 mins",
-    "cook_time": "25 mins",
-    "cuisine": "Italian",
-    "meal_type": "Lunch/Dinner",
-    "notes": "Top with parmesan cheese."
+    "cuisine": "Mediterranean",
+    "nutrition": {
+      "calories": 120,
+      "protein": "3g",
+      "carbs": "15g",
+      "fat": "4g"
+    }
   }
 ]

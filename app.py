@@ -1,36 +1,37 @@
-from flask import Flask, jsonify, request, render_template
-from pymongo import MongoClient
-from flask_cors import CORS
-import re
+from flask import Flask, render_template, request, jsonify
+import json
+import difflib
 
 app = Flask(__name__)
-CORS(app)
 
-client = MongoClient("mongodb://localhost:27017/")
-db = client["recipeDB"]
-recipes_collection = db["recipes"]
+# Load recipes from JSON file
+with open("recipes.json", "r", encoding="utf-8") as f:
+    recipes = json.load(f)
+
 
 @app.route("/")
 def home():
     return render_template("index.html")
 
-@app.route("/search", methods=["GET"])
-def search_recipes():
-    ingredients = request.args.get("ingredients")
-    if not ingredients:
-        return jsonify({"error": "Provide ingredients"}), 400
 
-    query_ingredients = [i.strip().lower() for i in ingredients.split(",")]
+@app.route("/search")
+def search():
+    ingredients_query = request.args.get("ingredients", "").lower().split(",")
+    ingredients_query = [i.strip() for i in ingredients_query if i.strip()]
 
-    # Build list of regex conditions
-    regex_conditions = []
-    for ingredient in query_ingredients:
-        regex_conditions.append({"ingredients": {"$regex": f"{re.escape(ingredient)}", "$options": "i"}})
+    results = []
+    for recipe in recipes:
+        # Match ingredients loosely (egg ≈ eggs)
+        matched = False
+        for query in ingredients_query:
+            for ing in recipe["ingredients"]:
+                if query in ing.lower() or difflib.get_close_matches(query, [ing.lower()]):
+                    matched = True
+        if matched:
+            results.append(recipe)
 
-    # Use $and so that all ingredients must match partially
-    recipes = list(recipes_collection.find({"$and": regex_conditions}, {"_id": 0}))
+    return jsonify(results)
 
-    return jsonify(recipes)
 
 if __name__ == "__main__":
     app.run(debug=True)
