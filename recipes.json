@@ -1,296 +1,298 @@
 [
   {
     "name": "Pasta",
-    "ingredients": ["pasta", "tomato", "cheese", "olive oil"],
+    "ingredients": ["pasta", "tomato", "cheese", "olive oil", "garlic", "basil"],
     "image": "pasta.jpg",
-    "recipe": "1. Boil pasta until al dente.\n2. Prepare sauce with tomatoes and cheese.\n3. Add olive oil and simmer for 5 minutes.\n4. Mix pasta with sauce and serve hot."
+    "prep_time": "10 min",
+    "cook_time": "20 min",
+    "nutrition": "350 kcal per serving",
+    "recipe": "Boil pasta. Make sauce with tomato, garlic, and cheese. Mix with olive oil and basil. Serve warm."
   },
   {
     "name": "Omelette",
-    "ingredients": ["egg", "salt", "onion", "oil"],
+    "ingredients": ["eggs", "salt", "onion", "oil", "pepper"],
     "image": "omelette.jpg",
-    "recipe": "1. Beat eggs with salt.\n2. Heat oil in pan and sauté onions.\n3. Pour eggs and cook both sides.\n4. Serve hot."
+    "prep_time": "5 min",
+    "cook_time": "10 min",
+    "nutrition": "150 kcal per serving",
+    "recipe": "Beat eggs with salt and pepper. Fry onions in oil, pour in eggs, cook until set. Serve hot."
   },
   {
     "name": "Salad",
-    "ingredients": ["lettuce", "tomato", "cucumber", "lemon"],
+    "ingredients": ["lettuce", "tomato", "cucumber", "lemon", "olive oil"],
     "image": "salad.jpg",
-    "recipe": "1. Chop vegetables.\n2. Mix in a bowl.\n3. Drizzle lemon juice.\n4. Toss and serve fresh."
+    "prep_time": "10 min",
+    "cook_time": "0 min",
+    "nutrition": "90 kcal per serving",
+    "recipe": "Chop lettuce, tomato, cucumber. Toss with lemon juice and olive oil."
   },
   {
     "name": "Fried Rice",
-    "ingredients": ["rice", "carrot", "peas", "soy sauce", "egg"],
+    "ingredients": ["rice", "carrot", "peas", "soy sauce", "egg", "spring onion"],
     "image": "fried_rice.jpg",
-    "recipe": "1. Cook rice.\n2. Scramble eggs, set aside.\n3. Stir-fry veggies.\n4. Add rice, eggs, soy sauce.\n5. Toss and serve."
+    "prep_time": "15 min",
+    "cook_time": "15 min",
+    "nutrition": "280 kcal per serving",
+    "recipe": "Cook rice. Stir-fry vegetables and egg. Add rice and soy sauce. Garnish with spring onion."
   },
   {
     "name": "Grilled Cheese",
     "ingredients": ["bread", "cheese", "butter"],
     "image": "grilled_cheese.jpg",
-    "recipe": "1. Butter bread slices.\n2. Place cheese between slices.\n3. Grill until golden.\n4. Serve warm."
+    "prep_time": "5 min",
+    "cook_time": "5 min",
+    "nutrition": "200 kcal per serving",
+    "recipe": "Butter bread slices. Place cheese in between. Grill until golden brown."
   },
   {
     "name": "Pancakes",
-    "ingredients": ["flour", "milk", "egg", "sugar", "butter"],
+    "ingredients": ["flour", "milk", "egg", "sugar", "butter", "baking powder"],
     "image": "pancakes.jpg",
-    "recipe": "1. Mix flour, milk, egg, sugar.\n2. Heat butter on pan.\n3. Pour batter, cook until bubbles.\n4. Flip and cook.\n5. Serve with syrup."
+    "prep_time": "10 min",
+    "cook_time": "15 min",
+    "nutrition": "180 kcal per pancake",
+    "recipe": "Mix flour, milk, egg, sugar, and baking powder. Cook on pan with butter. Serve warm."
   },
   {
     "name": "Tomato Soup",
-    "ingredients": ["tomato", "onion", "garlic", "salt", "water"],
+    "ingredients": ["tomato", "onion", "garlic", "salt", "water", "pepper"],
     "image": "tomato_soup.jpg",
-    "recipe": "1. Boil tomatoes, onion, garlic.\n2. Blend smooth.\n3. Add water, salt.\n4. Simmer 10 mins.\n5. Serve hot."
+    "prep_time": "10 min",
+    "cook_time": "20 min",
+    "nutrition": "120 kcal per serving",
+    "recipe": "Cook tomatoes, onion, and garlic. Blend until smooth. Boil with salt and pepper."
   },
   {
     "name": "Chocolate Cake",
-    "ingredients": ["flour", "cocoa powder", "sugar", "egg", "butter"],
+    "ingredients": ["flour", "cocoa powder", "sugar", "egg", "butter", "milk"],
     "image": "chocolate_cake.jpg",
-    "recipe": "1. Mix dry ingredients.\n2. Add eggs, butter.\n3. Bake 180°C, 30 mins.\n4. Cool and serve."
+    "prep_time": "20 min",
+    "cook_time": "30 min",
+    "nutrition": "400 kcal per slice",
+    "recipe": "Mix all ingredients. Bake at 180°C for 30 minutes."
   },
   {
     "name": "Chicken Curry",
-    "ingredients": ["chicken", "onion", "tomato", "spices", "oil"],
+    "ingredients": ["chicken", "onion", "tomato", "spices", "oil", "ginger", "garlic"],
     "image": "chicken_curry.jpg",
-    "recipe": "1. Fry onions till golden.\n2. Add spices, cook.\n3. Add chicken, tomatoes.\n4. Cook till tender.\n5. Garnish and serve."
+    "prep_time": "15 min",
+    "cook_time": "35 min",
+    "nutrition": "450 kcal per serving",
+    "recipe": "Fry onion, ginger, and garlic with spices. Add chicken and tomato. Cook until chicken is tender."
   },
   {
     "name": "Fruit Smoothie",
     "ingredients": ["banana", "strawberry", "milk", "honey"],
     "image": "fruit_smoothie.jpg",
-    "recipe": "1. Add all ingredients to blender.\n2. Blend smooth.\n3. Serve chilled."
+    "prep_time": "5 min",
+    "cook_time": "0 min",
+    "nutrition": "200 kcal per glass",
+    "recipe": "Blend banana, strawberry, milk, and honey until smooth. Serve chilled."
   },
   {
-    "name": "Vegetable Soup",
-    "ingredients": ["carrot", "beans", "potato", "onion", "water", "salt"],
-    "image": "vegetable_soup.jpg",
-    "recipe": "1. Chop veggies.\n2. Boil with water, salt.\n3. Simmer 15 mins.\n4. Serve hot."
+    "name": "Vegetable Stir Fry",
+    "ingredients": ["broccoli", "carrot", "bell pepper", "soy sauce", "garlic", "ginger"],
+    "image": "stir_fry.jpg",
+    "prep_time": "10 min",
+    "cook_time": "10 min",
+    "nutrition": "150 kcal per serving",
+    "recipe": "Heat oil, sauté garlic and ginger. Add vegetables and stir fry. Add soy sauce before serving."
   },
   {
-    "name": "Pizza",
-    "ingredients": ["pizza base", "tomato sauce", "cheese", "capsicum", "onion"],
+    "name": "Margarita Pizza",
+    "ingredients": ["pizza base", "tomato sauce", "mozzarella", "basil", "olive oil"],
     "image": "pizza.jpg",
-    "recipe": "1. Spread sauce on base.\n2. Add cheese, veggies.\n3. Bake till cheese melts.\n4. Slice and serve."
+    "prep_time": "15 min",
+    "cook_time": "20 min",
+    "nutrition": "300 kcal per slice",
+    "recipe": "Spread sauce on base. Add mozzarella and basil. Bake at 200°C for 20 minutes."
+  },
+  {
+    "name": "Caesar Salad",
+    "ingredients": ["lettuce", "parmesan", "croutons", "caesar dressing", "chicken"],
+    "image": "caesar_salad.jpg",
+    "prep_time": "15 min",
+    "cook_time": "0 min",
+    "nutrition": "220 kcal per serving",
+    "recipe": "Toss lettuce, parmesan, croutons, and grilled chicken with caesar dressing."
+  },
+  {
+    "name": "French Toast",
+    "ingredients": ["bread", "egg", "milk", "sugar", "butter"],
+    "image": "french_toast.jpg",
+    "prep_time": "10 min",
+    "cook_time": "10 min",
+    "nutrition": "250 kcal per serving",
+    "recipe": "Dip bread in egg-milk mixture. Fry in butter until golden brown."
+  },
+  {
+    "name": "Veggie Burger",
+    "ingredients": ["burger bun", "lettuce", "tomato", "veggie patty", "cheese", "mayo"],
+    "image": "veggie_burger.jpg",
+    "prep_time": "15 min",
+    "cook_time": "10 min",
+    "nutrition": "320 kcal per serving",
+    "recipe": "Assemble bun with patty, cheese, lettuce, tomato, and mayo. Serve with fries."
+  },
+  {
+    "name": "Chicken Sandwich",
+    "ingredients": ["bread", "chicken", "lettuce", "tomato", "mayo"],
+    "image": "chicken_sandwich.jpg",
+    "prep_time": "10 min",
+    "cook_time": "5 min",
+    "nutrition": "280 kcal per serving",
+    "recipe": "Layer chicken, lettuce, and tomato on bread with mayo. Grill if desired."
+  },
+  {
+    "name": "Mushroom Soup",
+    "ingredients": ["mushrooms", "onion", "garlic", "cream", "salt", "pepper"],
+    "image": "mushroom_soup.jpg",
+    "prep_time": "10 min",
+    "cook_time": "20 min",
+    "nutrition": "180 kcal per serving",
+    "recipe": "Cook mushrooms, onion, and garlic. Blend and add cream. Season with salt and pepper."
+  },
+  {
+    "name": "Falafel Wrap",
+    "ingredients": ["falafel", "pita bread", "lettuce", "tomato", "tahini"],
+    "image": "falafel_wrap.jpg",
+    "prep_time": "15 min",
+    "cook_time": "10 min",
+    "nutrition": "260 kcal per wrap",
+    "recipe": "Stuff pita with falafel, lettuce, tomato, and drizzle tahini."
+  },
+  {
+    "name": "Biryani",
+    "ingredients": ["rice", "chicken", "yogurt", "spices", "onion", "mint"],
+    "image": "biryani.jpg",
+    "prep_time": "30 min",
+    "cook_time": "45 min",
+    "nutrition": "500 kcal per serving",
+    "recipe": "Cook rice separately. Layer marinated chicken with rice and spices. Cook on low flame."
+  },
+  
+  {
+    "name": "Tacos",
+    "ingredients": ["tortilla", "beef", "cheese", "lettuce", "tomato"],
+    "image": "tacos.jpg",
+    "recipe": "Cook beef with seasoning. Fill tortillas with beef, cheese, lettuce, and tomato. Serve."
+  },
+  {
+    "name": "Samosa",
+    "ingredients": ["potato", "peas", "spices", "flour", "oil"],
+    "image": "samosa.jpg",
+    "recipe": "Prepare potato-pea filling with spices. Wrap in flour dough. Deep fry until golden."
+  },
+  {
+    "name": "Falafel",
+    "ingredients": ["chickpeas", "onion", "garlic", "parsley", "spices"],
+    "image": "falafel.jpg",
+    "recipe": "Blend chickpeas with onion, garlic, parsley, and spices. Shape into balls and deep fry."
+  },
+  {
+    "name": "Spring Rolls",
+    "ingredients": ["spring roll wrappers", "cabbage", "carrot", "soy sauce", "oil"],
+    "image": "spring_rolls.jpg",
+    "recipe": "Fill wrappers with stir-fried vegetables. Roll and seal. Deep fry until crispy."
+  },
+  {
+    "name": "Shawarma",
+    "ingredients": ["chicken", "yogurt", "garlic", "pita bread", "spices"],
+    "image": "shawarma.jpg",
+    "recipe": "Marinate chicken in yogurt and spices. Grill and serve in pita with garlic sauce."
+  },
+  {
+    "name": "Gulab Jamun",
+    "ingredients": ["milk powder", "flour", "sugar", "cardamom", "oil"],
+    "image": "gulab_jamun.jpg",
+    "recipe": "Make dough with milk powder and flour. Shape into balls, fry, and soak in sugar syrup."
+  },
+  {
+    "name": "Pav Bhaji",
+    "ingredients": ["potato", "tomato", "peas", "butter", "bread"],
+    "image": "pav_bhaji.jpg",
+    "recipe": "Cook and mash vegetables with spices. Serve hot with butter-toasted pav bread."
+  },
+  {
+    "name": "Ramen",
+    "ingredients": ["ramen noodles", "egg", "soy sauce", "broth", "vegetables"],
+    "image": "ramen.jpg",
+    "recipe": "Cook noodles in broth. Add soy sauce, vegetables, and boiled egg. Serve hot."
+  },
+  {
+    "name": "Burrito",
+    "ingredients": ["tortilla", "rice", "beans", "chicken", "cheese"],
+    "image": "burrito.jpg",
+    "recipe": "Fill tortilla with rice, beans, chicken, and cheese. Wrap tightly and serve."
+  },
+  {
+    "name": "French Toast",
+    "ingredients": ["bread", "egg", "milk", "sugar", "butter"],
+    "image": "french_toast.jpg",
+    "recipe": "Dip bread in egg-milk mixture. Fry with butter until golden on both sides."
+  },
+  {
+    "name": "Pad Thai",
+    "ingredients": ["rice noodles", "egg", "tofu", "peanuts", "soy sauce"],
+    "image": "pad_thai.jpg",
+    "recipe": "Stir-fry noodles with egg, tofu, and sauce. Top with crushed peanuts."
+  },
+  {
+    "name": "Butter Chicken",
+    "ingredients": ["chicken", "tomato", "cream", "butter", "spices"],
+    "image": "butter_chicken.jpg",
+    "recipe": "Cook chicken with spiced tomato gravy. Add cream and butter before serving."
+  },
+  {
+    "name": "Lasagna",
+    "ingredients": ["lasagna sheets", "cheese", "tomato sauce", "beef", "onion"],
+    "image": "lasagna.jpg",
+    "recipe": "Layer cooked sheets with meat sauce and cheese. Bake until golden."
   },
   {
     "name": "Idli",
-    "ingredients": ["rice", "urad dal", "salt"],
+    "ingredients": ["rice", "urad dal", "salt", "water"],
     "image": "idli.jpg",
-    "recipe": "1. Soak rice, dal overnight.\n2. Grind smooth.\n3. Ferment overnight.\n4. Steam in moulds.\n5. Serve with chutney."
+    "recipe": "Ferment rice and dal batter. Steam in molds until soft and fluffy."
   },
   {
     "name": "Dosa",
     "ingredients": ["rice", "urad dal", "salt", "oil"],
     "image": "dosa.jpg",
-    "recipe": "1. Make dosa batter.\n2. Heat pan, spread thin.\n3. Drizzle oil, cook crisp.\n4. Serve hot."
+    "recipe": "Spread fermented batter thin on a hot pan. Cook until crispy."
+  },
+  {
+    "name": "Fish Curry",
+    "ingredients": ["fish", "coconut milk", "onion", "tomato", "spices"],
+    "image": "fish_curry.jpg",
+    "recipe": "Cook onion, tomato, and spices. Add fish and coconut milk. Simmer until done."
   },
   {
     "name": "Biryani",
-    "ingredients": ["rice", "chicken", "onion", "tomato", "spices", "yogurt"],
+    "ingredients": ["rice", "chicken", "onion", "spices", "yogurt"],
     "image": "biryani.jpg",
-    "recipe": "1. Cook rice 70%.\n2. Fry onions, tomatoes, spices.\n3. Add marinated chicken.\n4. Layer with rice.\n5. Cook 20 mins on low.\n6. Serve with raita."
-  },
-  {
-    "name": "Paratha",
-    "ingredients": ["wheat flour", "salt", "oil", "water"],
-    "image": "paratha.jpg",
-    "recipe": "1. Knead dough.\n2. Roll out parathas.\n3. Cook on pan with oil.\n4. Serve with curry."
-  },
-  {
-    "name": "Upma",
-    "ingredients": ["semolina", "onion", "green chili", "salt", "oil"],
-    "image": "upma.jpg",
-    "recipe": "1. Roast semolina.\n2. Fry onions, chili.\n3. Add water, salt.\n4. Add semolina, stir till fluffy."
-  },
-  {
-    "name": "Poha",
-    "ingredients": ["flattened rice", "onion", "potato", "turmeric", "salt"],
-    "image": "poha.jpg",
-    "recipe": "1. Wash poha.\n2. Fry onions, potato, spices.\n3. Add poha, mix.\n4. Garnish with coriander."
-  },
-  {
-    "name": "Chapati",
-    "ingredients": ["wheat flour", "water", "salt"],
-    "image": "chapati.jpg",
-    "recipe": "1. Knead dough.\n2. Roll into discs.\n3. Cook both sides on hot pan.\n4. Serve with curry."
-  },
-  {
-    "name": "Fish Fry",
-    "ingredients": ["fish", "spices", "oil"],
-    "image": "fish_fry.jpg",
-    "recipe": "1. Marinate fish with spices.\n2. Shallow fry until golden.\n3. Serve with lemon wedges."
-  },
-  {
-    "name": "Dal Tadka",
-    "ingredients": ["lentils", "onion", "tomato", "spices", "ghee"],
-    "image": "dal_tadka.jpg",
-    "recipe": "1. Cook lentils.\n2. Prepare onion-tomato masala.\n3. Add tadka of ghee, spices.\n4. Mix and serve."
-  },
-  {
-    "name": "Samosa",
-    "ingredients": ["flour", "potato", "peas", "spices", "oil"],
-    "image": "samosa.jpg",
-    "recipe": "1. Make dough.\n2. Cook spiced potato-pea filling.\n3. Shape samosas, fill.\n4. Deep fry till golden."
-  },
-  {
-    "name": "Burger",
-    "ingredients": ["bun", "patty", "lettuce", "tomato", "cheese"],
-    "image": "burger.jpg",
-    "recipe": "1. Toast buns.\n2. Place patty, cheese, veggies.\n3. Assemble burger.\n4. Serve with fries."
-  },
-  {
-    "name": "Sandwich",
-    "ingredients": ["bread", "cheese", "cucumber", "tomato", "butter"],
-    "image": "sandwich.jpg",
-    "recipe": "1. Butter bread slices.\n2. Add cheese, cucumber, tomato.\n3. Close and serve."
-  },
-  {
-    "name": "Spring Rolls",
-    "ingredients": ["spring roll sheets", "cabbage", "carrot", "soy sauce", "oil"],
-    "image": "spring_rolls.jpg",
-    "recipe": "1. Cook veggies with soy sauce.\n2. Fill sheets, roll tight.\n3. Deep fry until crisp."
-  },
-  {
-    "name": "French Fries",
-    "ingredients": ["potato", "oil", "salt"],
-    "image": "fries.jpg",
-    "recipe": "1. Cut potatoes into sticks.\n2. Fry in hot oil until golden.\n3. Sprinkle salt, serve hot."
-  },
-  {
-    "name": "Pulao",
-    "ingredients": ["rice", "peas", "carrot", "spices", "onion"],
-    "image": "pulao.jpg",
-    "recipe": "1. Fry onion, spices.\n2. Add veggies, rice.\n3. Cook with water till done.\n4. Serve with raita."
-  },
-  {
-    "name": "Pav Bhaji",
-    "ingredients": ["pav", "potato", "tomato", "peas", "butter"],
-    "image": "pav_bhaji.jpg",
-    "recipe": "1. Cook mashed veggies with spices.\n2. Toast pav with butter.\n3. Serve together with onions."
-  },
-  {
-    "name": "Chole",
-    "ingredients": ["chickpeas", "onion", "tomato", "spices"],
-    "image": "chole.jpg",
-    "recipe": "1. Cook chickpeas.\n2. Fry onion, tomato, spices.\n3. Add chickpeas.\n4. Simmer and serve."
-  },
-  {
-    "name": "Rajma",
-    "ingredients": ["kidney beans", "onion", "tomato", "spices"],
-    "image": "rajma.jpg",
-    "recipe": "1. Cook beans.\n2. Fry onion, tomato, spices.\n3. Add beans, simmer.\n4. Serve with rice."
-  },
-  {
-    "name": "Masala Dosa",
-    "ingredients": ["dosa batter", "potato", "onion", "spices"],
-    "image": "masala_dosa.jpg",
-    "recipe": "1. Prepare potato filling.\n2. Spread dosa on pan.\n3. Add filling inside.\n4. Fold and serve."
-  },
-  {
-    "name": "Vada Pav",
-    "ingredients": ["bun", "potato vada", "chutney"],
-    "image": "vada_pav.jpg",
-    "recipe": "1. Place vada in bun.\n2. Add chutney.\n3. Serve with fried chilies."
-  },
-  {
-    "name": "Pani Puri",
-    "ingredients": ["puri", "potato", "chickpeas", "spiced water"],
-    "image": "pani_puri.jpg",
-    "recipe": "1. Fill puris with potato, chickpeas.\n2. Dip in spiced water.\n3. Eat immediately."
-  },
-  {
-    "name": "Kheer",
-    "ingredients": ["rice", "milk", "sugar", "cardamom", "nuts"],
-    "image": "kheer.jpg",
-    "recipe": "1. Boil rice in milk.\n2. Add sugar, cardamom.\n3. Cook till thick.\n4. Garnish with nuts."
-  },
-  {
-    "name": "Gulab Jamun",
-    "ingredients": ["khoya", "flour", "sugar syrup", "oil"],
-    "image": "gulab_jamun.jpg",
-    "recipe": "1. Knead khoya, flour.\n2. Shape balls.\n3. Fry golden, dip in sugar syrup.\n4. Serve warm."
-  },
-  {
-    "name": "Jalebi",
-    "ingredients": ["flour", "yogurt", "sugar", "oil"],
-    "image": "jalebi.jpg",
-    "recipe": "1. Make fermented batter.\n2. Pipe into hot oil in spirals.\n3. Fry crisp.\n4. Dip in sugar syrup."
-  },
-  {
-    "name": "Rasgulla",
-    "ingredients": ["milk", "sugar", "water"],
-    "image": "rasgulla.jpg",
-    "recipe": "1. Curdle milk, strain chenna.\n2. Knead and shape balls.\n3. Boil in sugar syrup.\n4. Serve chilled."
-  },
-  {
-    "name": "Halwa",
-    "ingredients": ["semolina", "sugar", "ghee", "water"],
-    "image": "halwa.jpg",
-    "recipe": "1. Roast semolina in ghee.\n2. Add water, sugar.\n3. Stir until thick.\n4. Serve hot."
-  },
-  {
-    "name": "Paneer Butter Masala",
-    "ingredients": ["paneer", "tomato", "cream", "butter", "spices"],
-    "image": "paneer_butter_masala.jpg",
-    "recipe": "1. Fry tomato puree with spices.\n2. Add butter, cream.\n3. Add paneer cubes.\n4. Cook and serve with naan."
-  },
-  {
-    "name": "Palak Paneer",
-    "ingredients": ["spinach", "paneer", "onion", "tomato", "spices"],
-    "image": "palak_paneer.jpg",
-    "recipe": "1. Boil and puree spinach.\n2. Fry onion, tomato, spices.\n3. Add paneer, spinach.\n4. Cook and serve."
-  },
-  {
-    "name": "Aloo Gobi",
-    "ingredients": ["potato", "cauliflower", "spices", "onion"],
-    "image": "aloo_gobi.jpg",
-    "recipe": "1. Fry onion, spices.\n2. Add potato, cauliflower.\n3. Cook till tender.\n4. Serve with roti."
-  },
-  {
-    "name": "Bhindi Masala",
-    "ingredients": ["okra", "onion", "tomato", "spices"],
-    "image": "bhindi.jpg",
-    "recipe": "1. Fry okra separately.\n2. Cook onion, tomato, spices.\n3. Mix okra.\n4. Serve with chapati."
-  },
-  {
-    "name": "Mushroom Curry",
-    "ingredients": ["mushroom", "onion", "tomato", "spices"],
-    "image": "mushroom_curry.jpg",
-    "recipe": "1. Fry onion, tomato, spices.\n2. Add mushrooms.\n3. Cook till tender.\n4. Serve hot."
-  },
-  {
-    "name": "Egg Curry",
-    "ingredients": ["egg", "onion", "tomato", "spices"],
-    "image": "egg_curry.jpg",
-    "recipe": "1. Boil eggs, peel.\n2. Fry onion, tomato, spices.\n3. Add eggs, simmer.\n4. Serve with rice."
+    "recipe": "Cook marinated chicken with spices. Layer with rice and steam."
   },
   {
     "name": "Momos",
-    "ingredients": ["flour", "vegetables", "spices"],
+    "ingredients": ["flour", "vegetables", "chicken", "soy sauce", "oil"],
     "image": "momos.jpg",
-    "recipe": "1. Make dough.\n2. Prepare veg filling.\n3. Shape momos.\n4. Steam till cooked."
+    "recipe": "Fill flour wrappers with spiced vegetables or chicken. Steam until cooked."
   },
   {
-    "name": "Shawarma",
-    "ingredients": ["pita bread", "chicken", "garlic sauce", "veggies"],
-    "image": "shawarma.jpg",
-    "recipe": "1. Cook marinated chicken.\n2. Fill pita with chicken, veggies, sauce.\n3. Roll and serve."
+    "name": "Pasta Alfredo",
+    "ingredients": ["pasta", "cream", "butter", "garlic", "cheese"],
+    "image": "pasta_alfredo.jpg",
+    "recipe": "Cook pasta. Make creamy garlic sauce with butter and cheese. Mix and serve."
   },
   {
-    "name": "Tacos",
-    "ingredients": ["taco shell", "chicken", "lettuce", "cheese", "salsa"],
-    "image": "tacos.jpg",
-    "recipe": "1. Cook chicken with spices.\n2. Fill taco shells with chicken, lettuce, cheese.\n3. Top with salsa.\n4. Serve immediately."
-  },
-  {
-    "name": "Sushi",
-    "ingredients": ["rice", "nori", "fish", "vegetables"],
-    "image": "sushi.jpg",
-    "recipe": "1. Cook sushi rice.\n2. Place on nori sheet.\n3. Add fillings, roll tight.\n4. Cut into pieces and serve."
-  },
-  {
-    "name": "Nachos",
-    "ingredients": ["tortilla chips", "cheese", "jalapeno", "salsa"],
-    "image": "nachos.jpg",
-    "recipe": "1. Layer chips on plate.\n2. Add cheese, jalapenos.\n3. Microwave until melted.\n4. Serve with salsa."
+    "name": "Pizza",
+    "ingredients": ["pizza base", "tomato sauce", "cheese", "vegetables"],
+    "image": "pizza.jpg",
+    "recipe": "Spread sauce on base. Add toppings and cheese. Bake until cheese melts."
   }
 ]
+
+
+
+

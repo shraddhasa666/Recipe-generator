@@ -1,37 +1,32 @@
 from flask import Flask, render_template, request, jsonify
 import json
-import difflib
+import os
 
 app = Flask(__name__)
 
 # Load recipes from JSON file
-with open("recipes.json", "r", encoding="utf-8") as f:
-    recipes = json.load(f)
-
+def load_recipes():
+    with open("recipes.json", "r", encoding="utf-8") as f:
+        return json.load(f)
 
 @app.route("/")
-def home():
+def index():
     return render_template("index.html")
-
 
 @app.route("/search")
 def search():
-    ingredients_query = request.args.get("ingredients", "").lower().split(",")
-    ingredients_query = [i.strip() for i in ingredients_query if i.strip()]
+    query = request.args.get("ingredients", "").lower().split(",")
+    query = [q.strip() for q in query if q.strip()]
 
+    recipes = load_recipes()
     results = []
+
     for recipe in recipes:
-        # Match ingredients loosely (egg ≈ eggs)
-        matched = False
-        for query in ingredients_query:
-            for ing in recipe["ingredients"]:
-                if query in ing.lower() or difflib.get_close_matches(query, [ing.lower()]):
-                    matched = True
-        if matched:
+        ingredients = [i.lower() for i in recipe["ingredients"]]
+        if all(any(q in ing or ing in q for ing in ingredients) for q in query):
             results.append(recipe)
 
     return jsonify(results)
-
 
 if __name__ == "__main__":
     app.run(debug=True)

@@ -8,63 +8,21 @@
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
+  <div class="container my-4">
+    <h1 class="text-center mb-4">🍴 Recipe Finder</h1>
 
-<div class="container my-4">
-  <h1 class="text-center mb-4">🍲 Recipe Finder</h1>
-  
-  <div class="row justify-content-center mb-3">
-    <div class="col-md-6">
-      <div class="input-group">
-        <input type="text" id="ingredientInput" class="form-control" placeholder="Enter ingredients (comma separated)">
-        <button class="btn btn-warning" id="searchBtn">Search</button>
+    <div class="row justify-content-center mb-3">
+      <div class="col-md-6">
+        <div class="input-group">
+          <input type="text" id="ingredientInput" class="form-control" placeholder="Enter ingredients (comma separated)">
+          <button class="btn btn-warning" id="searchBtn">Search</button>
+        </div>
       </div>
     </div>
+
+    <div class="row" id="resultsList"></div>
   </div>
 
-  <div class="row" id="resultsList"></div>
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-<script>
-document.getElementById("searchBtn").addEventListener("click", function() {
-    const ingredients = document.getElementById("ingredientInput").value;
-    fetch(`/search?ingredients=${encodeURIComponent(ingredients)}`)
-      .then(response => response.json())
-      .then(data => {
-        const resultsList = document.getElementById("resultsList");
-        resultsList.innerHTML = ""; 
-
-        if (!data || data.length === 0) {
-          resultsList.innerHTML = '<p class="text-center">No recipes found.</p>';
-          return;
-        }
-
-        data.forEach(recipe => {
-          const cardDiv = document.createElement("div");
-          cardDiv.className = "col-md-6 mb-3";
-
-          cardDiv.innerHTML = `
-            <div class="card h-100 shadow">
-              <img src="/static/${recipe.image || 'placeholder.jpg'}" alt="${recipe.name}" class="card-img-top">
-              <div class="card-body">
-                <h5 class="card-title">${recipe.name}</h5>
-                <p><strong>Ingredients:</strong> ${recipe.ingredients.join(", ")}</p>
-                <p><strong>Recipe:</strong> ${recipe.recipe}</p>
-                <p><strong>Prep Time:</strong> ${recipe.prep_time}</p>
-                <p><strong>Cook Time:</strong> ${recipe.cook_time}</p>
-                <p><strong>Cuisine:</strong> ${recipe.cuisine}</p>
-                <p><strong>Nutrition:</strong> ${recipe.nutrition.calories} cal, 
-                   Protein: ${recipe.nutrition.protein}, 
-                   Carbs: ${recipe.nutrition.carbs}, 
-                   Fat: ${recipe.nutrition.fat}</p>
-              </div>
-            </div>
-          `;
-
-          resultsList.appendChild(cardDiv);
-        });
-      });
-});
-</script>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 </html>
