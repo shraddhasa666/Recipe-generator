@@ -1,61 +1,61 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, request, jsonify, render_template
 import sqlite3
 
 app = Flask(__name__)
 
-# ---------- Database Setup ----------
-def init_db():
-    conn = sqlite3.connect("recipes.db")
-    cursor = conn.cursor()
-    cursor.execute("""
-        CREATE TABLE IF NOT EXISTS recipes (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            name TEXT NOT NULL,
-            ingredients TEXT NOT NULL,
-            image TEXT,
-            recipe TEXT NOT NULL
-        )
-    """)
-    conn.commit()
-    conn.close()
+DB_NAME = "recipes.db"
 
-# ---------- Helper Functions ----------
-def query_recipes(ingredients):
-    conn = sqlite3.connect("recipes.db")
-    cursor = conn.cursor()
+# ------------------------------
+# Helper: convert DB row to dict
+# ------------------------------
+def row_to_dict(row):
+    return {
+        "id": row[0],
+        "name": row[1],
+        "ingredients": row[2].split(","),
+        "instructions": row[3],
+        "prep_time": row[4],
+        "cook_time": row[5],
+        "servings": row[6]
+    }
 
-    ingredients_list = [ing.strip().lower() for ing in ingredients.split(",")]
-
-    query = "SELECT name, ingredients, image, recipe FROM recipes"
-    cursor.execute(query)
-    all_recipes = cursor.fetchall()
-    conn.close()
-
-    # Filter manually to allow partial matches (egg vs eggs)
-    results = []
-    for name, ing, image, recipe in all_recipes:
-        ing_list = [i.strip().lower() for i in ing.split(",")]
-        if all(any(q in i or i in q for i in ing_list) for q in ingredients_list):
-            results.append({
-                "name": name,
-                "ingredients": ing_list,
-                "image": image if image else "placeholder.jpg",
-                "recipe": recipe
-            })
-    return results
-
-# ---------- Routes ----------
+# ------------------------------
+# Home page
+# ------------------------------
 @app.route("/")
 def home():
     return render_template("index.html")
 
+# ------------------------------
+# Search endpoint
+# ------------------------------
 @app.route("/search")
 def search():
-    ingredients = request.args.get("ingredients", "")
-    if not ingredients:
+    search_query = request.args.get("ingredients", "").lower().strip()
+    if not search_query:
         return jsonify([])
-    return jsonify(query_recipes(ingredients))
 
+    search_terms = [term.strip() for term in search_query.split(",")]
+
+    conn = sqlite3.connect(DB_NAME)
+    cursor = conn.cursor()
+    cursor.execute("SELECT * FROM recipes")
+    rows = cursor.fetchall()
+    conn.close()
+
+    results = []
+    for row in rows:
+        recipe = row_to_dict(row)
+        recipe_ingredients = [i.strip().lower() for i in recipe["ingredients"]]
+
+        # fuzzy match: "egg" should match "eggs"
+        if all(any(term in ing for ing in recipe_ingredients) for term in search_terms):
+            results.append(recipe)
+
+    return jsonify(results)
+
+# ------------------------------
+# Run app
+# ------------------------------
 if __name__ == "__main__":
-    init_db()
     app.run(debug=True)

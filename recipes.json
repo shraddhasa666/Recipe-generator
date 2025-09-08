@@ -170,129 +170,175 @@
     "nutrition": "500 kcal per serving",
     "recipe": "Cook rice separately. Layer marinated chicken with rice and spices. Cook on low flame."
   },
-  
   {
     "name": "Tacos",
     "ingredients": ["tortilla", "beef", "cheese", "lettuce", "tomato"],
     "image": "tacos.jpg",
+    "prep_time": "20 min",
+    "cook_time": "10 min",
+    "nutrition": "350 kcal per serving",
     "recipe": "Cook beef with seasoning. Fill tortillas with beef, cheese, lettuce, and tomato. Serve."
   },
   {
     "name": "Samosa",
     "ingredients": ["potato", "peas", "spices", "flour", "oil"],
     "image": "samosa.jpg",
+    "prep_time": "40 min",
+    "cook_time": "15 min",
+    "nutrition": "250 kcal per piece",
     "recipe": "Prepare potato-pea filling with spices. Wrap in flour dough. Deep fry until golden."
   },
   {
     "name": "Falafel",
     "ingredients": ["chickpeas", "onion", "garlic", "parsley", "spices"],
     "image": "falafel.jpg",
+    "prep_time": "25 min",
+    "cook_time": "10 min",
+    "nutrition": "300 kcal per serving",
     "recipe": "Blend chickpeas with onion, garlic, parsley, and spices. Shape into balls and deep fry."
   },
   {
     "name": "Spring Rolls",
     "ingredients": ["spring roll wrappers", "cabbage", "carrot", "soy sauce", "oil"],
     "image": "spring_rolls.jpg",
+    "prep_time": "20 min",
+    "cook_time": "10 min",
+    "nutrition": "200 kcal per roll",
     "recipe": "Fill wrappers with stir-fried vegetables. Roll and seal. Deep fry until crispy."
   },
   {
     "name": "Shawarma",
     "ingredients": ["chicken", "yogurt", "garlic", "pita bread", "spices"],
     "image": "shawarma.jpg",
+    "prep_time": "30 min",
+    "cook_time": "20 min",
+    "nutrition": "450 kcal per wrap",
     "recipe": "Marinate chicken in yogurt and spices. Grill and serve in pita with garlic sauce."
   },
   {
     "name": "Gulab Jamun",
     "ingredients": ["milk powder", "flour", "sugar", "cardamom", "oil"],
     "image": "gulab_jamun.jpg",
+    "prep_time": "30 min",
+    "cook_time": "15 min",
+    "nutrition": "150 kcal per piece",
     "recipe": "Make dough with milk powder and flour. Shape into balls, fry, and soak in sugar syrup."
   },
   {
     "name": "Pav Bhaji",
     "ingredients": ["potato", "tomato", "peas", "butter", "bread"],
     "image": "pav_bhaji.jpg",
+    "prep_time": "25 min",
+    "cook_time": "20 min",
+    "nutrition": "400 kcal per serving",
     "recipe": "Cook and mash vegetables with spices. Serve hot with butter-toasted pav bread."
   },
   {
     "name": "Ramen",
     "ingredients": ["ramen noodles", "egg", "soy sauce", "broth", "vegetables"],
     "image": "ramen.jpg",
+    "prep_time": "10 min",
+    "cook_time": "10 min",
+    "nutrition": "350 kcal per serving",
     "recipe": "Cook noodles in broth. Add soy sauce, vegetables, and boiled egg. Serve hot."
   },
   {
     "name": "Burrito",
     "ingredients": ["tortilla", "rice", "beans", "chicken", "cheese"],
     "image": "burrito.jpg",
+    "prep_time": "20 min",
+    "cook_time": "10 min",
+    "nutrition": "500 kcal per burrito",
     "recipe": "Fill tortilla with rice, beans, chicken, and cheese. Wrap tightly and serve."
   },
   {
     "name": "French Toast",
     "ingredients": ["bread", "egg", "milk", "sugar", "butter"],
     "image": "french_toast.jpg",
+    "prep_time": "10 min",
+    "cook_time": "10 min",
+    "nutrition": "250 kcal per serving",
     "recipe": "Dip bread in egg-milk mixture. Fry with butter until golden on both sides."
   },
   {
     "name": "Pad Thai",
     "ingredients": ["rice noodles", "egg", "tofu", "peanuts", "soy sauce"],
     "image": "pad_thai.jpg",
+    "prep_time": "15 min",
+    "cook_time": "15 min",
+    "nutrition": "400 kcal per serving",
     "recipe": "Stir-fry noodles with egg, tofu, and sauce. Top with crushed peanuts."
   },
   {
     "name": "Butter Chicken",
     "ingredients": ["chicken", "tomato", "cream", "butter", "spices"],
     "image": "butter_chicken.jpg",
+    "prep_time": "25 min",
+    "cook_time": "30 min",
+    "nutrition": "480 kcal per serving",
     "recipe": "Cook chicken with spiced tomato gravy. Add cream and butter before serving."
   },
   {
     "name": "Lasagna",
     "ingredients": ["lasagna sheets", "cheese", "tomato sauce", "beef", "onion"],
     "image": "lasagna.jpg",
+    "prep_time": "30 min",
+    "cook_time": "45 min",
+    "nutrition": "600 kcal per serving",
     "recipe": "Layer cooked sheets with meat sauce and cheese. Bake until golden."
   },
   {
     "name": "Idli",
     "ingredients": ["rice", "urad dal", "salt", "water"],
     "image": "idli.jpg",
+    "prep_time": "10 hr (including fermentation)",
+    "cook_time": "15 min",
+    "nutrition": "150 kcal per serving",
     "recipe": "Ferment rice and dal batter. Steam in molds until soft and fluffy."
   },
   {
     "name": "Dosa",
     "ingredients": ["rice", "urad dal", "salt", "oil"],
     "image": "dosa.jpg",
+    "prep_time": "10 hr (including fermentation)",
+    "cook_time": "10 min",
+    "nutrition": "200 kcal per dosa",
     "recipe": "Spread fermented batter thin on a hot pan. Cook until crispy."
   },
   {
     "name": "Fish Curry",
     "ingredients": ["fish", "coconut milk", "onion", "tomato", "spices"],
     "image": "fish_curry.jpg",
+    "prep_time": "20 min",
+    "cook_time": "25 min",
+    "nutrition": "350 kcal per serving",
     "recipe": "Cook onion, tomato, and spices. Add fish and coconut milk. Simmer until done."
-  },
-  {
-    "name": "Biryani",
-    "ingredients": ["rice", "chicken", "onion", "spices", "yogurt"],
-    "image": "biryani.jpg",
-    "recipe": "Cook marinated chicken with spices. Layer with rice and steam."
   },
   {
     "name": "Momos",
     "ingredients": ["flour", "vegetables", "chicken", "soy sauce", "oil"],
     "image": "momos.jpg",
+    "prep_time": "40 min",
+    "cook_time": "15 min",
+    "nutrition": "200 kcal per momo",
     "recipe": "Fill flour wrappers with spiced vegetables or chicken. Steam until cooked."
   },
   {
     "name": "Pasta Alfredo",
     "ingredients": ["pasta", "cream", "butter", "garlic", "cheese"],
     "image": "pasta_alfredo.jpg",
+    "prep_time": "15 min",
+    "cook_time": "15 min",
+    "nutrition": "450 kcal per serving",
     "recipe": "Cook pasta. Make creamy garlic sauce with butter and cheese. Mix and serve."
   },
   {
     "name": "Pizza",
     "ingredients": ["pizza base", "tomato sauce", "cheese", "vegetables"],
     "image": "pizza.jpg",
+    "prep_time": "20 min",
+    "cook_time": "15 min",
+    "nutrition": "300 kcal per slice",
     "recipe": "Spread sauce on base. Add toppings and cheese. Bake until cheese melts."
   }
 ]
-
-
-
-
