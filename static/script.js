@@ -21,9 +21,10 @@ document.getElementById("searchBtn").addEventListener("click", function() {
             <div class="card-body">
               <h5 class="card-title">${recipe.name}</h5>
               <p><strong>Ingredients:</strong> ${recipe.ingredients.join(", ")}</p>
-              <p><strong>Prep Time:</strong> ${recipe.prep_time} | <strong>Cook Time:</strong> ${recipe.cook_time}</p>
-              <p><strong>Nutrition:</strong> ${recipe.nutrition}</p>
-              <p><strong>Recipe:</strong> ${recipe.recipe}</p>
+              <p><strong>Prep Time:</strong> ${recipe.prep_time || "N/A"} | <strong>Cook Time:</strong> ${recipe.cook_time || "N/A"}</p>
+              <p><strong>Servings:</strong> ${recipe.servings || "N/A"}</p>
+              <p><strong>Nutrition:</strong> ${recipe.nutrition || "N/A"}</p>
+              <p><strong>Recipe:</strong> ${recipe.recipe || "N/A"}</p>
             </div>
           </div>
         `;

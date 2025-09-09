@@ -1,344 +1,1208 @@
 [
   {
-    "name": "Pasta",
-    "ingredients": ["pasta", "tomato", "cheese", "olive oil", "garlic", "basil"],
-    "image": "pasta.jpg",
-    "prep_time": "10 min",
-    "cook_time": "20 min",
-    "nutrition": "350 kcal per serving",
-    "recipe": "Boil pasta. Make sauce with tomato, garlic, and cheese. Mix with olive oil and basil. Serve warm."
-  },
-  {
-    "name": "Omelette",
-    "ingredients": ["eggs", "salt", "onion", "oil", "pepper"],
-    "image": "omelette.jpg",
-    "prep_time": "5 min",
-    "cook_time": "10 min",
-    "nutrition": "150 kcal per serving",
-    "recipe": "Beat eggs with salt and pepper. Fry onions in oil, pour in eggs, cook until set. Serve hot."
-  },
-  {
-    "name": "Salad",
-    "ingredients": ["lettuce", "tomato", "cucumber", "lemon", "olive oil"],
-    "image": "salad.jpg",
-    "prep_time": "10 min",
-    "cook_time": "0 min",
-    "nutrition": "90 kcal per serving",
-    "recipe": "Chop lettuce, tomato, cucumber. Toss with lemon juice and olive oil."
-  },
-  {
-    "name": "Fried Rice",
-    "ingredients": ["rice", "carrot", "peas", "soy sauce", "egg", "spring onion"],
-    "image": "fried_rice.jpg",
-    "prep_time": "15 min",
-    "cook_time": "15 min",
-    "nutrition": "280 kcal per serving",
-    "recipe": "Cook rice. Stir-fry vegetables and egg. Add rice and soy sauce. Garnish with spring onion."
-  },
-  {
-    "name": "Grilled Cheese",
-    "ingredients": ["bread", "cheese", "butter"],
-    "image": "grilled_cheese.jpg",
-    "prep_time": "5 min",
-    "cook_time": "5 min",
-    "nutrition": "200 kcal per serving",
-    "recipe": "Butter bread slices. Place cheese in between. Grill until golden brown."
-  },
-  {
-    "name": "Pancakes",
-    "ingredients": ["flour", "milk", "egg", "sugar", "butter", "baking powder"],
-    "image": "pancakes.jpg",
-    "prep_time": "10 min",
-    "cook_time": "15 min",
-    "nutrition": "180 kcal per pancake",
-    "recipe": "Mix flour, milk, egg, sugar, and baking powder. Cook on pan with butter. Serve warm."
-  },
-  {
-    "name": "Tomato Soup",
-    "ingredients": ["tomato", "onion", "garlic", "salt", "water", "pepper"],
-    "image": "tomato_soup.jpg",
-    "prep_time": "10 min",
-    "cook_time": "20 min",
-    "nutrition": "120 kcal per serving",
-    "recipe": "Cook tomatoes, onion, and garlic. Blend until smooth. Boil with salt and pepper."
-  },
-  {
-    "name": "Chocolate Cake",
-    "ingredients": ["flour", "cocoa powder", "sugar", "egg", "butter", "milk"],
-    "image": "chocolate_cake.jpg",
-    "prep_time": "20 min",
-    "cook_time": "30 min",
-    "nutrition": "400 kcal per slice",
-    "recipe": "Mix all ingredients. Bake at 180°C for 30 minutes."
+    "name": "Spaghetti Carbonara",
+    "ingredients": [
+      "200g spaghetti",
+      "100g pancetta or bacon",
+      "2 large eggs",
+      "50g Parmesan cheese",
+      "2 cloves garlic",
+      "Salt",
+      "Black pepper",
+      "1 tbsp olive oil"
+    ],
+    "recipe": "1. Bring a large pot of salted water to a boil and cook the spaghetti until al dente, about 8–10 minutes. Reserve 1/2 cup of pasta water before draining.\n2. While the pasta cooks, heat olive oil in a pan and sauté minced garlic until fragrant. Add pancetta/bacon and cook until crispy.\n3. In a bowl, whisk together eggs and finely grated Parmesan until smooth.\n4. Add drained spaghetti to the pan with pancetta. Toss well to coat.\n5. Remove the pan from heat. Slowly pour the egg-cheese mixture into the pasta while stirring quickly to prevent scrambling.\n6. Add reserved pasta water, a little at a time, until a creamy sauce forms.\n7. Season with black pepper, garnish with extra Parmesan, and serve immediately.",
+    "prep_time": "10 mins",
+    "cook_time": "20 mins",
+    "servings": "2",
+    "nutrition": "Approx. 450 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?carbonara"
   },
   {
     "name": "Chicken Curry",
-    "ingredients": ["chicken", "onion", "tomato", "spices", "oil", "ginger", "garlic"],
-    "image": "chicken_curry.jpg",
-    "prep_time": "15 min",
-    "cook_time": "35 min",
-    "nutrition": "450 kcal per serving",
-    "recipe": "Fry onion, ginger, and garlic with spices. Add chicken and tomato. Cook until chicken is tender."
+    "ingredients": [
+      "500g chicken (cut into pieces)",
+      "2 onions, finely chopped",
+      "2 tomatoes, pureed",
+      "2 tbsp ginger-garlic paste",
+      "3 tbsp curry powder",
+      "200ml coconut milk",
+      "3 tbsp oil",
+      "Salt",
+      "Fresh coriander leaves"
+    ],
+    "recipe": "1. Heat oil in a deep pan. Add chopped onions and sauté until golden brown.\n2. Stir in ginger-garlic paste and cook for 1–2 minutes until the raw smell disappears.\n3. Add pureed tomatoes and cook until the mixture thickens and oil starts to separate.\n4. Mix in curry powder and cook for another 2 minutes, stirring constantly.\n5. Add chicken pieces and season with salt. Cook until the chicken is lightly browned on all sides.\n6. Pour in coconut milk, stir well, and simmer on low heat for 20–25 minutes until chicken is cooked through.\n7. Adjust seasoning, garnish with fresh coriander, and serve hot with rice or naan.",
+    "prep_time": "15 mins",
+    "cook_time": "30 mins",
+    "servings": "4",
+    "nutrition": "Approx. 520 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?chicken-curry"
   },
   {
-    "name": "Fruit Smoothie",
-    "ingredients": ["banana", "strawberry", "milk", "honey"],
-    "image": "fruit_smoothie.jpg",
-    "prep_time": "5 min",
-    "cook_time": "0 min",
-    "nutrition": "200 kcal per glass",
-    "recipe": "Blend banana, strawberry, milk, and honey until smooth. Serve chilled."
-  },
-  {
-    "name": "Vegetable Stir Fry",
-    "ingredients": ["broccoli", "carrot", "bell pepper", "soy sauce", "garlic", "ginger"],
-    "image": "stir_fry.jpg",
-    "prep_time": "10 min",
-    "cook_time": "10 min",
-    "nutrition": "150 kcal per serving",
-    "recipe": "Heat oil, sauté garlic and ginger. Add vegetables and stir fry. Add soy sauce before serving."
-  },
-  {
-    "name": "Margarita Pizza",
-    "ingredients": ["pizza base", "tomato sauce", "mozzarella", "basil", "olive oil"],
-    "image": "pizza.jpg",
-    "prep_time": "15 min",
-    "cook_time": "20 min",
-    "nutrition": "300 kcal per slice",
-    "recipe": "Spread sauce on base. Add mozzarella and basil. Bake at 200°C for 20 minutes."
-  },
-  {
-    "name": "Caesar Salad",
-    "ingredients": ["lettuce", "parmesan", "croutons", "caesar dressing", "chicken"],
-    "image": "caesar_salad.jpg",
-    "prep_time": "15 min",
-    "cook_time": "0 min",
-    "nutrition": "220 kcal per serving",
-    "recipe": "Toss lettuce, parmesan, croutons, and grilled chicken with caesar dressing."
-  },
-  {
-    "name": "French Toast",
-    "ingredients": ["bread", "egg", "milk", "sugar", "butter"],
-    "image": "french_toast.jpg",
-    "prep_time": "10 min",
-    "cook_time": "10 min",
-    "nutrition": "250 kcal per serving",
-    "recipe": "Dip bread in egg-milk mixture. Fry in butter until golden brown."
-  },
-  {
-    "name": "Veggie Burger",
-    "ingredients": ["burger bun", "lettuce", "tomato", "veggie patty", "cheese", "mayo"],
-    "image": "veggie_burger.jpg",
-    "prep_time": "15 min",
-    "cook_time": "10 min",
-    "nutrition": "320 kcal per serving",
-    "recipe": "Assemble bun with patty, cheese, lettuce, tomato, and mayo. Serve with fries."
-  },
-  {
-    "name": "Chicken Sandwich",
-    "ingredients": ["bread", "chicken", "lettuce", "tomato", "mayo"],
-    "image": "chicken_sandwich.jpg",
-    "prep_time": "10 min",
-    "cook_time": "5 min",
-    "nutrition": "280 kcal per serving",
-    "recipe": "Layer chicken, lettuce, and tomato on bread with mayo. Grill if desired."
-  },
-  {
-    "name": "Mushroom Soup",
-    "ingredients": ["mushrooms", "onion", "garlic", "cream", "salt", "pepper"],
-    "image": "mushroom_soup.jpg",
-    "prep_time": "10 min",
-    "cook_time": "20 min",
-    "nutrition": "180 kcal per serving",
-    "recipe": "Cook mushrooms, onion, and garlic. Blend and add cream. Season with salt and pepper."
-  },
-  {
-    "name": "Falafel Wrap",
-    "ingredients": ["falafel", "pita bread", "lettuce", "tomato", "tahini"],
-    "image": "falafel_wrap.jpg",
-    "prep_time": "15 min",
-    "cook_time": "10 min",
-    "nutrition": "260 kcal per wrap",
-    "recipe": "Stuff pita with falafel, lettuce, tomato, and drizzle tahini."
+    "name": "Vegetable Stir-Fry",
+    "ingredients": [
+      "1 broccoli head",
+      "1 red bell pepper",
+      "1 carrot",
+      "2 tbsp soy sauce",
+      "1 tbsp sesame oil",
+      "2 cloves garlic",
+      "1 tsp ginger",
+      "Salt"
+    ],
+    "recipe": "1. Wash and cut broccoli into florets, slice carrot thinly, and chop bell pepper into strips.\n2. Heat sesame oil in a wok or large pan. Add minced garlic and grated ginger, sauté for 1 minute.\n3. Add carrots first, cook for 2 minutes. Then add bell peppers and broccoli.\n4. Stir-fry vegetables on high heat for 5–6 minutes until crisp-tender.\n5. Add soy sauce, toss to coat evenly, and cook for another 1 minute.\n6. Serve hot as a side dish or with steamed rice/noodles.",
+    "prep_time": "10 mins",
+    "cook_time": "10 mins",
+    "servings": "3",
+    "nutrition": "Approx. 180 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?vegetable-stirfry"
   },
   {
     "name": "Biryani",
-    "ingredients": ["rice", "chicken", "yogurt", "spices", "onion", "mint"],
-    "image": "biryani.jpg",
-    "prep_time": "30 min",
-    "cook_time": "45 min",
-    "nutrition": "500 kcal per serving",
-    "recipe": "Cook rice separately. Layer marinated chicken with rice and spices. Cook on low flame."
+    "ingredients": [
+      "2 cups basmati rice",
+      "500g chicken",
+      "1 cup yogurt",
+      "2 onions",
+      "2 tbsp biryani masala",
+      "Fresh mint leaves",
+      "Oil",
+      "Salt"
+    ],
+    "recipe": "1. Wash and soak basmati rice for 30 minutes. Cook until 70% done, then drain.\n2. Marinate chicken with yogurt, spices, and salt. Let rest for 20 minutes.\n3. Heat oil in a pan, fry sliced onions until golden. Remove half for garnishing.\n4. Add marinated chicken to the pan, cook until almost done.\n5. In a large pot, layer chicken, rice, fried onions, and mint leaves alternately.\n6. Cover tightly and cook on low flame for 20 minutes (dum cooking).\n7. Serve hot with raita or salad.",
+    "prep_time": "30 mins",
+    "cook_time": "45 mins",
+    "servings": "4",
+    "nutrition": "Approx. 500 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?biryani"
   },
   {
     "name": "Tacos",
-    "ingredients": ["tortilla", "beef", "cheese", "lettuce", "tomato"],
-    "image": "tacos.jpg",
-    "prep_time": "20 min",
-    "cook_time": "10 min",
-    "nutrition": "350 kcal per serving",
-    "recipe": "Cook beef with seasoning. Fill tortillas with beef, cheese, lettuce, and tomato. Serve."
+    "ingredients": [
+      "6 tortillas",
+      "300g ground beef",
+      "1 onion",
+      "Lettuce",
+      "Tomatoes",
+      "Cheese",
+      "Taco seasoning"
+    ],
+    "recipe": "1. Heat oil in a pan and sauté chopped onion until translucent.\n2. Add ground beef and taco seasoning. Cook until beef is browned.\n3. Warm tortillas in a dry pan or oven.\n4. Assemble tacos by filling tortillas with beef, shredded lettuce, chopped tomatoes, and cheese.\n5. Serve immediately with salsa or guacamole.",
+    "prep_time": "10 mins",
+    "cook_time": "15 mins",
+    "servings": "3",
+    "nutrition": "Approx. 350 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?tacos"
   },
   {
     "name": "Samosa",
-    "ingredients": ["potato", "peas", "spices", "flour", "oil"],
-    "image": "samosa.jpg",
-    "prep_time": "40 min",
-    "cook_time": "15 min",
-    "nutrition": "250 kcal per piece",
-    "recipe": "Prepare potato-pea filling with spices. Wrap in flour dough. Deep fry until golden."
+    "ingredients": [
+      "2 potatoes",
+      "1/2 cup peas",
+      "2 cups flour",
+      "2 tbsp oil",
+      "1 tsp cumin",
+      "Spices",
+      "Salt",
+      "Oil for frying"
+    ],
+    "recipe": "1. Boil potatoes and mash them. Mix with peas, cumin, and spices for filling.\n2. Prepare dough with flour, oil, salt, and water. Rest for 20 minutes.\n3. Divide dough into balls, roll into circles, and cut in half.\n4. Shape each half into a cone, fill with potato-pea mixture, and seal edges.\n5. Heat oil and deep-fry samosas until golden brown.\n6. Serve hot with chutney.",
+    "prep_time": "20 mins",
+    "cook_time": "20 mins",
+    "servings": "4",
+    "nutrition": "Approx. 250 kcal per piece",
+    "image": "https://source.unsplash.com/600x400/?samosa"
   },
   {
     "name": "Falafel",
-    "ingredients": ["chickpeas", "onion", "garlic", "parsley", "spices"],
-    "image": "falafel.jpg",
-    "prep_time": "25 min",
-    "cook_time": "10 min",
-    "nutrition": "300 kcal per serving",
-    "recipe": "Blend chickpeas with onion, garlic, parsley, and spices. Shape into balls and deep fry."
+    "ingredients": [
+      "1 cup chickpeas",
+      "1 onion",
+      "2 garlic cloves",
+      "Parsley",
+      "Spices",
+      "Salt",
+      "Oil for frying"
+    ],
+    "recipe": "1. Soak chickpeas overnight and drain.\n2. Blend chickpeas with onion, garlic, parsley, and spices into a coarse paste.\n3. Shape mixture into small balls or patties.\n4. Heat oil and deep-fry falafels until golden brown.\n5. Serve hot with hummus or in pita bread.",
+    "prep_time": "15 mins (plus soaking)",
+    "cook_time": "15 mins",
+    "servings": "4",
+    "nutrition": "Approx. 300 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?falafel"
   },
   {
     "name": "Spring Rolls",
-    "ingredients": ["spring roll wrappers", "cabbage", "carrot", "soy sauce", "oil"],
-    "image": "spring_rolls.jpg",
-    "prep_time": "20 min",
-    "cook_time": "10 min",
-    "nutrition": "200 kcal per roll",
-    "recipe": "Fill wrappers with stir-fried vegetables. Roll and seal. Deep fry until crispy."
+    "ingredients": [
+      "Spring roll wrappers",
+      "1 cup cabbage",
+      "1 carrot",
+      "Soy sauce",
+      "Salt",
+      "Oil for frying"
+    ],
+    "recipe": "1. Shred cabbage and carrot, stir-fry with soy sauce for 2 minutes.\n2. Place filling in wrappers, roll tightly, and seal edges.\n3. Heat oil in a pan, fry rolls until golden and crispy.\n4. Drain on paper towels and serve hot with sweet chili sauce.",
+    "prep_time": "15 mins",
+    "cook_time": "10 mins",
+    "servings": "4",
+    "nutrition": "Approx. 200 kcal per roll",
+    "image": "https://source.unsplash.com/600x400/?spring-rolls"
   },
   {
     "name": "Shawarma",
-    "ingredients": ["chicken", "yogurt", "garlic", "pita bread", "spices"],
-    "image": "shawarma.jpg",
-    "prep_time": "30 min",
-    "cook_time": "20 min",
-    "nutrition": "450 kcal per wrap",
-    "recipe": "Marinate chicken in yogurt and spices. Grill and serve in pita with garlic sauce."
+    "ingredients": [
+      "300g chicken",
+      "Yogurt",
+      "Garlic",
+      "Spices",
+      "Pita bread",
+      "Tahini sauce"
+    ],
+    "recipe": "1. Marinate chicken with yogurt, garlic, and spices for at least 1 hour.\n2. Grill or pan-cook the chicken until cooked through.\n3. Slice chicken into strips.\n4. Warm pita bread and spread with tahini sauce.\n5. Add chicken strips and vegetables (optional).\n6. Roll up and serve hot.",
+    "prep_time": "20 mins (plus marination)",
+    "cook_time": "15 mins",
+    "servings": "2",
+    "nutrition": "Approx. 400 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?shawarma"
+  },
+  
+  {
+    "name": "Pancakes",
+    "ingredients": [
+      "1 cup all-purpose flour",
+      "2 tbsp sugar",
+      "1 tbsp baking powder",
+      "1/2 tsp salt",
+      "1 cup milk",
+      "1 large egg",
+      "2 tbsp melted butter",
+      "1 tsp vanilla extract"
+    ],
+    "recipe": "1. In a bowl, mix flour, sugar, baking powder, and salt.\n2. In another bowl, whisk milk, egg, melted butter, and vanilla.\n3. Combine wet and dry ingredients, mix until smooth.\n4. Heat a non-stick pan and pour 1/4 cup batter per pancake.\n5. Cook until bubbles form on top, flip, and cook until golden.\n6. Serve hot with syrup, fruits, or nuts.",
+    "prep_time": "10 mins",
+    "cook_time": "15 mins",
+    "servings": "4",
+    "nutrition": "Approx. 220 kcal per pancake",
+    "image": "https://source.unsplash.com/600x400/?pancakes"
   },
   {
-    "name": "Gulab Jamun",
-    "ingredients": ["milk powder", "flour", "sugar", "cardamom", "oil"],
-    "image": "gulab_jamun.jpg",
-    "prep_time": "30 min",
-    "cook_time": "15 min",
-    "nutrition": "150 kcal per piece",
-    "recipe": "Make dough with milk powder and flour. Shape into balls, fry, and soak in sugar syrup."
+    "name": "Grilled Cheese Sandwich",
+    "ingredients": [
+      "2 slices of bread",
+      "2 slices cheddar cheese",
+      "1 tbsp butter"
+    ],
+    "recipe": "1. Heat a pan on medium heat.\n2. Butter one side of each bread slice.\n3. Place one slice, buttered side down, in the pan. Add cheese on top.\n4. Cover with the other bread slice, buttered side up.\n5. Grill until golden brown on both sides and cheese melts.\n6. Serve hot with ketchup or soup.",
+    "prep_time": "5 mins",
+    "cook_time": "10 mins",
+    "servings": "1",
+    "nutrition": "Approx. 300 kcal per sandwich",
+    "image": "https://source.unsplash.com/600x400/?grilled-cheese"
   },
   {
-    "name": "Pav Bhaji",
-    "ingredients": ["potato", "tomato", "peas", "butter", "bread"],
-    "image": "pav_bhaji.jpg",
-    "prep_time": "25 min",
-    "cook_time": "20 min",
-    "nutrition": "400 kcal per serving",
-    "recipe": "Cook and mash vegetables with spices. Serve hot with butter-toasted pav bread."
+    "name": "Caesar Salad",
+    "ingredients": [
+      "1 romaine lettuce",
+      "1/2 cup croutons",
+      "1/4 cup grated Parmesan cheese",
+      "2 tbsp Caesar dressing",
+      "Salt",
+      "Black pepper"
+    ],
+    "recipe": "1. Wash and chop romaine lettuce.\n2. In a large bowl, toss lettuce with Caesar dressing.\n3. Add croutons and Parmesan cheese.\n4. Season with salt and pepper to taste.\n5. Serve immediately as a starter or side dish.",
+    "prep_time": "10 mins",
+    "cook_time": "0 mins",
+    "servings": "2",
+    "nutrition": "Approx. 180 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?caesar-salad"
   },
   {
-    "name": "Ramen",
-    "ingredients": ["ramen noodles", "egg", "soy sauce", "broth", "vegetables"],
-    "image": "ramen.jpg",
-    "prep_time": "10 min",
-    "cook_time": "10 min",
-    "nutrition": "350 kcal per serving",
-    "recipe": "Cook noodles in broth. Add soy sauce, vegetables, and boiled egg. Serve hot."
+    "name": "Chocolate Brownies",
+    "ingredients": [
+      "1/2 cup butter",
+      "1 cup sugar",
+      "2 large eggs",
+      "1/3 cup cocoa powder",
+      "1/2 cup flour",
+      "1/4 tsp salt",
+      "1/4 tsp baking powder",
+      "1 tsp vanilla extract"
+    ],
+    "recipe": "1. Preheat oven to 175°C (350°F). Grease a baking pan.\n2. Melt butter and mix with sugar, eggs, and vanilla.\n3. Stir in cocoa, flour, salt, and baking powder.\n4. Pour batter into pan and spread evenly.\n5. Bake for 20–25 minutes. Insert toothpick to check doneness.\n6. Cool slightly, cut into squares, and serve.",
+    "prep_time": "10 mins",
+    "cook_time": "25 mins",
+    "servings": "8",
+    "nutrition": "Approx. 250 kcal per brownie",
+    "image": "https://source.unsplash.com/600x400/?brownies"
   },
   {
-    "name": "Burrito",
-    "ingredients": ["tortilla", "rice", "beans", "chicken", "cheese"],
-    "image": "burrito.jpg",
-    "prep_time": "20 min",
-    "cook_time": "10 min",
-    "nutrition": "500 kcal per burrito",
-    "recipe": "Fill tortilla with rice, beans, chicken, and cheese. Wrap tightly and serve."
+    "name": "Minestrone Soup",
+    "ingredients": [
+      "1 tbsp olive oil",
+      "1 onion",
+      "2 cloves garlic",
+      "1 carrot",
+      "1 zucchini",
+      "1 cup green beans",
+      "1 can diced tomatoes",
+      "4 cups vegetable broth",
+      "1 cup pasta",
+      "Salt",
+      "Pepper",
+      "Italian herbs"
+    ],
+    "recipe": "1. Heat olive oil in a pot. Sauté chopped onion and garlic until fragrant.\n2. Add diced carrot, zucchini, and green beans. Cook for 5 minutes.\n3. Add tomatoes and vegetable broth. Bring to a boil.\n4. Add pasta and cook until tender.\n5. Season with salt, pepper, and Italian herbs.\n6. Serve hot with a drizzle of olive oil or grated Parmesan.",
+    "prep_time": "10 mins",
+    "cook_time": "25 mins",
+    "servings": "4",
+    "nutrition": "Approx. 200 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?minestrone-soup"
+  },
+  {
+    "name": "Margherita Pizza",
+    "ingredients": [
+      "Pizza dough",
+      "1/2 cup tomato sauce",
+      "150g mozzarella cheese",
+      "Fresh basil leaves",
+      "Olive oil",
+      "Salt"
+    ],
+    "recipe": "1. Preheat oven to 220°C (430°F).\n2. Roll out pizza dough on a baking tray.\n3. Spread tomato sauce evenly over dough.\n4. Add slices of mozzarella and fresh basil leaves.\n5. Drizzle olive oil and sprinkle a pinch of salt.\n6. Bake for 12–15 minutes until crust is golden and cheese melts.\n7. Slice and serve hot.",
+    "prep_time": "15 mins",
+    "cook_time": "15 mins",
+    "servings": "2",
+    "nutrition": "Approx. 300 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?margherita-pizza"
   },
   {
     "name": "French Toast",
-    "ingredients": ["bread", "egg", "milk", "sugar", "butter"],
-    "image": "french_toast.jpg",
-    "prep_time": "10 min",
-    "cook_time": "10 min",
-    "nutrition": "250 kcal per serving",
-    "recipe": "Dip bread in egg-milk mixture. Fry with butter until golden on both sides."
+    "ingredients": [
+      "4 slices bread",
+      "2 eggs",
+      "1/2 cup milk",
+      "1 tsp cinnamon",
+      "1 tsp vanilla extract",
+      "Butter",
+      "Maple syrup or honey"
+    ],
+    "recipe": "1. In a bowl, whisk eggs, milk, cinnamon, and vanilla.\n2. Dip each bread slice into the mixture, coating both sides.\n3. Heat butter in a pan and cook bread slices until golden brown on both sides.\n4. Serve hot with maple syrup or honey.",
+    "prep_time": "5 mins",
+    "cook_time": "10 mins",
+    "servings": "2",
+    "nutrition": "Approx. 250 kcal per slice",
+    "image": "https://source.unsplash.com/600x400/?french-toast"
+  },
+  {
+    "name": "Veggie Burger",
+    "ingredients": [
+      "2 burger buns",
+      "1 veggie patty",
+      "Lettuce",
+      "Tomato slices",
+      "Onion slices",
+      "Cheese slice",
+      "Ketchup or mayo"
+    ],
+    "recipe": "1. Cook veggie patty according to package instructions.\n2. Toast burger buns lightly.\n3. Assemble burger: bottom bun, lettuce, patty, cheese, tomato, onion, sauce, top bun.\n4. Serve immediately with fries or salad.",
+    "prep_time": "10 mins",
+    "cook_time": "10 mins",
+    "servings": "2",
+    "nutrition": "Approx. 350 kcal per burger",
+    "image": "https://source.unsplash.com/600x400/?veggie-burger"
+  },
+  {
+    "name": "Lemonade",
+    "ingredients": [
+      "1 cup lemon juice",
+      "4 cups water",
+      "1/2 cup sugar",
+      "Ice cubes",
+      "Mint leaves (optional)"
+    ],
+    "recipe": "1. In a pitcher, mix lemon juice and sugar until sugar dissolves.\n2. Add water and stir well.\n3. Serve chilled over ice cubes, garnish with mint leaves if desired.",
+    "prep_time": "5 mins",
+    "cook_time": "0 mins",
+    "servings": "4",
+    "nutrition": "Approx. 50 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?lemonade"
+  },
+  {
+    "name": "Guacamole",
+    "ingredients": [
+      "2 ripe avocados",
+      "1 small onion",
+      "1 tomato",
+      "1 lime",
+      "Salt",
+      "Cilantro leaves",
+      "Chili (optional)"
+    ],
+    "recipe": "1. Mash avocados in a bowl.\n2. Finely chop onion, tomato, and cilantro. Add to mashed avocado.\n3. Squeeze lime juice and season with salt and chili.\n4. Mix well and serve with tortilla chips or as a sandwich spread.",
+    "prep_time": "10 mins",
+    "cook_time": "0 mins",
+    "servings": "2",
+    "nutrition": "Approx. 150 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?guacamole"
+  },
+  {
+    "name": "Spaghetti Aglio e Olio",
+    "ingredients": [
+      "200g spaghetti",
+      "4 cloves garlic",
+      "1/4 cup olive oil",
+      "1 tsp red chili flakes",
+      "Salt",
+      "Fresh parsley",
+      "Grated Parmesan (optional)"
+    ],
+    "recipe": "1. Cook spaghetti in salted boiling water until al dente. Reserve 1/2 cup pasta water and drain.\n2. Heat olive oil in a pan, sauté sliced garlic until golden.\n3. Add chili flakes and stir briefly.\n4. Toss in drained spaghetti and mix well, adding reserved pasta water if needed.\n5. Garnish with chopped parsley and Parmesan.\n6. Serve hot.",
+    "prep_time": "5 mins",
+    "cook_time": "15 mins",
+    "servings": "2",
+    "nutrition": "Approx. 400 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?spaghetti-aglio-e-olio"
+  },
+  {
+    "name": "Chicken Alfredo",
+    "ingredients": [
+      "200g fettuccine",
+      "250g chicken breast",
+      "1 cup heavy cream",
+      "50g Parmesan cheese",
+      "2 tbsp butter",
+      "2 cloves garlic",
+      "Salt",
+      "Black pepper"
+    ],
+    "recipe": "1. Cook fettuccine in salted water until al dente. Drain and set aside.\n2. Season chicken with salt and pepper, cook in a pan until golden and cooked through.\n3. In the same pan, melt butter, sauté minced garlic.\n4. Add heavy cream and bring to a simmer.\n5. Stir in Parmesan until sauce thickens.\n6. Add fettuccine and chicken to the sauce, toss to coat.\n7. Serve immediately with extra Parmesan.",
+    "prep_time": "10 mins",
+    "cook_time": "20 mins",
+    "servings": "2",
+    "nutrition": "Approx. 600 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?chicken-alfredo"
+  },
+  {
+    "name": "Stuffed Bell Peppers",
+    "ingredients": [
+      "4 bell peppers",
+      "1 cup cooked rice",
+      "200g minced meat (or vegetables for veg version)",
+      "1 onion",
+      "2 cloves garlic",
+      "1/2 cup tomato sauce",
+      "Cheese for topping",
+      "Salt",
+      "Black pepper",
+      "Olive oil"
+    ],
+    "recipe": "1. Preheat oven to 190°C (375°F).\n2. Cut tops of bell peppers and remove seeds.\n3. Sauté onion and garlic in olive oil, add minced meat or veggies, cook until done.\n4. Mix cooked rice and tomato sauce with filling.\n5. Stuff bell peppers with mixture, top with cheese.\n6. Place in baking dish, bake 25–30 minutes until peppers are tender and cheese melts.\n7. Serve hot.",
+    "prep_time": "15 mins",
+    "cook_time": "30 mins",
+    "servings": "4",
+    "nutrition": "Approx. 350 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?stuffed-peppers"
   },
   {
     "name": "Pad Thai",
-    "ingredients": ["rice noodles", "egg", "tofu", "peanuts", "soy sauce"],
-    "image": "pad_thai.jpg",
-    "prep_time": "15 min",
-    "cook_time": "15 min",
-    "nutrition": "400 kcal per serving",
-    "recipe": "Stir-fry noodles with egg, tofu, and sauce. Top with crushed peanuts."
+    "ingredients": [
+      "200g rice noodles",
+      "150g shrimp or chicken",
+      "2 eggs",
+      "2 cloves garlic",
+      "1 cup bean sprouts",
+      "2 tbsp fish sauce",
+      "1 tbsp soy sauce",
+      "1 tbsp tamarind paste",
+      "2 tbsp peanuts",
+      "Lime wedges",
+      "Oil"
+    ],
+    "recipe": "1. Soak rice noodles in warm water until soft.\n2. Heat oil in a pan, sauté garlic and protein until cooked.\n3. Push aside, scramble eggs in the same pan.\n4. Add noodles, fish sauce, soy sauce, and tamarind paste, toss well.\n5. Add bean sprouts, mix gently.\n6. Serve with crushed peanuts and lime wedges.",
+    "prep_time": "15 mins",
+    "cook_time": "15 mins",
+    "servings": "2",
+    "nutrition": "Approx. 450 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?pad-thai"
   },
   {
-    "name": "Butter Chicken",
-    "ingredients": ["chicken", "tomato", "cream", "butter", "spices"],
-    "image": "butter_chicken.jpg",
-    "prep_time": "25 min",
-    "cook_time": "30 min",
-    "nutrition": "480 kcal per serving",
-    "recipe": "Cook chicken with spiced tomato gravy. Add cream and butter before serving."
+    "name": "Egg Fried Rice",
+    "ingredients": [
+      "2 cups cooked rice",
+      "2 eggs",
+      "1/2 cup peas and carrots",
+      "2 cloves garlic",
+      "2 tbsp soy sauce",
+      "1 tbsp oil",
+      "Salt",
+      "Spring onions for garnish"
+    ],
+    "recipe": "1. Heat oil in a pan, sauté garlic.\n2. Add vegetables and stir-fry for 2–3 minutes.\n3. Push veggies aside, scramble eggs in the pan.\n4. Add cooked rice, soy sauce, and salt. Stir-fry for 5 minutes.\n5. Garnish with chopped spring onions and serve hot.",
+    "prep_time": "5 mins",
+    "cook_time": "10 mins",
+    "servings": "2",
+    "nutrition": "Approx. 350 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?egg-fried-rice"
   },
   {
-    "name": "Lasagna",
-    "ingredients": ["lasagna sheets", "cheese", "tomato sauce", "beef", "onion"],
-    "image": "lasagna.jpg",
-    "prep_time": "30 min",
-    "cook_time": "45 min",
-    "nutrition": "600 kcal per serving",
-    "recipe": "Layer cooked sheets with meat sauce and cheese. Bake until golden."
+    "name": "Tomato Basil Soup",
+    "ingredients": [
+      "4 large tomatoes",
+      "1 onion",
+      "2 cloves garlic",
+      "2 cups vegetable broth",
+      "1/4 cup cream",
+      "Salt",
+      "Black pepper",
+      "Fresh basil leaves",
+      "Olive oil"
+    ],
+    "recipe": "1. Heat olive oil, sauté chopped onion and garlic.\n2. Add chopped tomatoes and cook until soft.\n3. Pour in vegetable broth, simmer for 10 minutes.\n4. Blend soup until smooth.\n5. Return to heat, add cream, season with salt and pepper.\n6. Garnish with fresh basil and serve hot.",
+    "prep_time": "10 mins",
+    "cook_time": "20 mins",
+    "servings": "2",
+    "nutrition": "Approx. 150 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?tomato-soup"
   },
   {
-    "name": "Idli",
-    "ingredients": ["rice", "urad dal", "salt", "water"],
-    "image": "idli.jpg",
-    "prep_time": "10 hr (including fermentation)",
-    "cook_time": "15 min",
-    "nutrition": "150 kcal per serving",
-    "recipe": "Ferment rice and dal batter. Steam in molds until soft and fluffy."
+    "name": "Beef Tacos",
+    "ingredients": [
+      "6 taco shells",
+      "300g ground beef",
+      "1 onion",
+      "1 tbsp taco seasoning",
+      "Lettuce",
+      "Tomato",
+      "Cheese",
+      "Sour cream"
+    ],
+    "recipe": "1. Sauté chopped onion in a pan until translucent.\n2. Add ground beef and taco seasoning, cook until beef is browned.\n3. Warm taco shells.\n4. Fill shells with beef, lettuce, tomato, cheese, and top with sour cream.\n5. Serve immediately.",
+    "prep_time": "10 mins",
+    "cook_time": "15 mins",
+    "servings": "3",
+    "nutrition": "Approx. 350 kcal per taco",
+    "image": "https://source.unsplash.com/600x400/?beef-tacos"
   },
   {
-    "name": "Dosa",
-    "ingredients": ["rice", "urad dal", "salt", "oil"],
-    "image": "dosa.jpg",
-    "prep_time": "10 hr (including fermentation)",
-    "cook_time": "10 min",
-    "nutrition": "200 kcal per dosa",
-    "recipe": "Spread fermented batter thin on a hot pan. Cook until crispy."
+    "name": "Veggie Quesadilla",
+    "ingredients": [
+      "2 large tortillas",
+      "1 cup mixed vegetables",
+      "1 cup shredded cheese",
+      "1 tbsp oil",
+      "Salsa or sour cream"
+    ],
+    "recipe": "1. Heat oil in a pan, sauté vegetables until tender.\n2. Place one tortilla in a pan, sprinkle half the cheese and cooked vegetables.\n3. Cover with the second tortilla.\n4. Cook on both sides until golden and cheese melts.\n5. Slice into wedges and serve with salsa or sour cream.",
+    "prep_time": "5 mins",
+    "cook_time": "10 mins",
+    "servings": "2",
+    "nutrition": "Approx. 300 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?veggie-quesadilla"
   },
   {
-    "name": "Fish Curry",
-    "ingredients": ["fish", "coconut milk", "onion", "tomato", "spices"],
-    "image": "fish_curry.jpg",
-    "prep_time": "20 min",
-    "cook_time": "25 min",
-    "nutrition": "350 kcal per serving",
-    "recipe": "Cook onion, tomato, and spices. Add fish and coconut milk. Simmer until done."
+    "name": "Banana Smoothie",
+    "ingredients": [
+      "2 ripe bananas",
+      "1 cup milk",
+      "1/2 cup yogurt",
+      "1 tbsp honey",
+      "Ice cubes"
+    ],
+    "recipe": "1. Peel bananas and cut into pieces.\n2. Blend bananas, milk, yogurt, honey, and ice until smooth.\n3. Pour into glasses and serve chilled.",
+    "prep_time": "5 mins",
+    "cook_time": "0 mins",
+    "servings": "2",
+    "nutrition": "Approx. 200 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?banana-smoothie"
   },
   {
-    "name": "Momos",
-    "ingredients": ["flour", "vegetables", "chicken", "soy sauce", "oil"],
-    "image": "momos.jpg",
-    "prep_time": "40 min",
-    "cook_time": "15 min",
-    "nutrition": "200 kcal per momo",
-    "recipe": "Fill flour wrappers with spiced vegetables or chicken. Steam until cooked."
+    "name": "Caprese Salad",
+    "ingredients": [
+      "2 large tomatoes",
+      "150g fresh mozzarella",
+      "Fresh basil leaves",
+      "2 tbsp olive oil",
+      "Salt",
+      "Black pepper"
+    ],
+    "recipe": "1. Slice tomatoes and mozzarella.\n2. Arrange tomato and mozzarella slices alternately on a plate.\n3. Add basil leaves between slices.\n4. Drizzle olive oil, season with salt and pepper.\n5. Serve immediately.",
+    "prep_time": "5 mins",
+    "cook_time": "0 mins",
+    "servings": "2",
+    "nutrition": "Approx. 250 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?caprese-salad"
   },
   {
-    "name": "Pasta Alfredo",
-    "ingredients": ["pasta", "cream", "butter", "garlic", "cheese"],
-    "image": "pasta_alfredo.jpg",
-    "prep_time": "15 min",
-    "cook_time": "15 min",
-    "nutrition": "450 kcal per serving",
-    "recipe": "Cook pasta. Make creamy garlic sauce with butter and cheese. Mix and serve."
+    "name": "Cinnamon Rolls",
+    "ingredients": [
+      "2 cups all-purpose flour",
+      "2 tbsp sugar",
+      "1 tsp salt",
+      "2 tsp instant yeast",
+      "3/4 cup warm milk",
+      "2 tbsp melted butter",
+      "1 egg",
+      "1/2 cup brown sugar",
+      "1 tbsp cinnamon",
+      "2 tbsp butter for filling",
+      "Glaze: 1 cup powdered sugar, 2 tbsp milk"
+    ],
+    "recipe": "1. Mix flour, sugar, salt, and yeast in a bowl.\n2. Add warm milk, melted butter, and egg. Knead into a smooth dough.\n3. Let dough rise for 1 hour until doubled in size.\n4. Roll out dough, spread softened butter, sprinkle brown sugar and cinnamon.\n5. Roll tightly, cut into 1-inch slices.\n6. Place in a greased baking dish, bake at 180°C (350°F) for 20–25 minutes.\n7. Mix glaze ingredients and drizzle over warm rolls before serving.",
+    "prep_time": "20 mins",
+    "cook_time": "25 mins",
+    "servings": "8",
+    "nutrition": "Approx. 300 kcal per roll",
+    "image": "https://source.unsplash.com/600x400/?cinnamon-rolls"
   },
   {
-    "name": "Pizza",
-    "ingredients": ["pizza base", "tomato sauce", "cheese", "vegetables"],
-    "image": "pizza.jpg",
-    "prep_time": "20 min",
-    "cook_time": "15 min",
-    "nutrition": "300 kcal per slice",
-    "recipe": "Spread sauce on base. Add toppings and cheese. Bake until cheese melts."
+    "name": "Mango Smoothie",
+    "ingredients": [
+      "1 cup chopped mango",
+      "1/2 cup yogurt",
+      "1/2 cup milk",
+      "1 tbsp honey",
+      "Ice cubes"
+    ],
+    "recipe": "1. Place mango, yogurt, milk, honey, and ice in a blender.\n2. Blend until smooth.\n3. Pour into glasses and serve chilled.",
+    "prep_time": "5 mins",
+    "cook_time": "0 mins",
+    "servings": "2",
+    "nutrition": "Approx. 180 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?mango-smoothie"
+  },
+  {
+    "name": "Vegetable Soup",
+    "ingredients": [
+      "1 tbsp olive oil",
+      "1 onion",
+      "2 cloves garlic",
+      "1 carrot",
+      "1 zucchini",
+      "1 cup green beans",
+      "1 can diced tomatoes",
+      "4 cups vegetable broth",
+      "Salt",
+      "Pepper",
+      "Italian herbs"
+    ],
+    "recipe": "1. Heat olive oil, sauté onion and garlic until fragrant.\n2. Add chopped vegetables, cook for 5 minutes.\n3. Pour in diced tomatoes and vegetable broth.\n4. Simmer for 15–20 minutes until vegetables are tender.\n5. Season with salt, pepper, and herbs.\n6. Serve hot with bread or crackers.",
+    "prep_time": "10 mins",
+    "cook_time": "20 mins",
+    "servings": "4",
+    "nutrition": "Approx. 120 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?vegetable-soup"
+  },
+  {
+    "name": "Garlic Butter Shrimp",
+    "ingredients": [
+      "250g shrimp",
+      "3 cloves garlic",
+      "2 tbsp butter",
+      "1 tbsp olive oil",
+      "Salt",
+      "Black pepper",
+      "Lemon juice",
+      "Parsley"
+    ],
+    "recipe": "1. Heat olive oil and butter in a pan.\n2. Sauté minced garlic until fragrant.\n3. Add shrimp, season with salt and pepper. Cook 3–4 minutes until pink.\n4. Drizzle with lemon juice and garnish with parsley.\n5. Serve immediately with rice or pasta.",
+    "prep_time": "5 mins",
+    "cook_time": "10 mins",
+    "servings": "2",
+    "nutrition": "Approx. 200 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?garlic-shrimp"
+  },
+  {
+    "name": "Greek Salad",
+    "ingredients": [
+      "1 cucumber",
+      "2 tomatoes",
+      "1/2 red onion",
+      "1/2 cup feta cheese",
+      "1/4 cup olives",
+      "2 tbsp olive oil",
+      "1 tbsp lemon juice",
+      "Salt",
+      "Black pepper"
+    ],
+    "recipe": "1. Chop cucumber, tomatoes, and red onion.\n2. Combine in a bowl with olives and feta cheese.\n3. Drizzle olive oil and lemon juice.\n4. Season with salt and pepper.\n5. Toss gently and serve immediately.",
+    "prep_time": "10 mins",
+    "cook_time": "0 mins",
+    "servings": "2",
+    "nutrition": "Approx. 180 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?greek-salad"
+  },
+  {
+    "name": "Teriyaki Chicken",
+    "ingredients": [
+      "250g chicken breast",
+      "2 tbsp soy sauce",
+      "1 tbsp honey",
+      "1 tbsp mirin or rice wine",
+      "1 clove garlic",
+      "1 tsp ginger",
+      "1 tsp sesame seeds",
+      "Oil"
+    ],
+    "recipe": "1. Mix soy sauce, honey, mirin, minced garlic, and ginger to make teriyaki sauce.\n2. Cut chicken into strips and marinate for 15 minutes.\n3. Heat oil in a pan, cook chicken until done.\n4. Pour remaining sauce into the pan, cook 2–3 minutes until glossy.\n5. Sprinkle sesame seeds and serve with rice or noodles.",
+    "prep_time": "15 mins",
+    "cook_time": "15 mins",
+    "servings": "2",
+    "nutrition": "Approx. 250 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?teriyaki-chicken"
+  },
+  {
+    "name": "Omelette",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup milk",
+      "1/4 cup chopped vegetables",
+      "Salt",
+      "Black pepper",
+      "1 tbsp butter",
+      "Cheese (optional)"
+    ],
+    "recipe": "1. Beat eggs with milk, salt, and pepper.\n2. Heat butter in a pan.\n3. Pour egg mixture, cook on low heat.\n4. Add vegetables and cheese on one side.\n5. Fold omelette and cook 1–2 minutes.\n6. Serve hot.",
+    "prep_time": "5 mins",
+    "cook_time": "5 mins",
+    "servings": "1",
+    "nutrition": "Approx. 200 kcal per omelette",
+    "image": "https://source.unsplash.com/600x400/?omelette"
+  },
+  {
+    "name": "Chocolate Chip Cookies",
+    "ingredients": [
+      "1 cup flour",
+      "1/2 tsp baking soda",
+      "1/4 tsp salt",
+      "1/2 cup butter",
+      "1/2 cup sugar",
+      "1/4 cup brown sugar",
+      "1 tsp vanilla",
+      "1 egg",
+      "1 cup chocolate chips"
+    ],
+    "recipe": "1. Preheat oven to 175°C (350°F).\n2. Mix flour, baking soda, and salt.\n3. In another bowl, cream butter and sugars, add egg and vanilla.\n4. Combine wet and dry ingredients, fold in chocolate chips.\n5. Drop spoonfuls onto a baking tray.\n6. Bake 10–12 minutes until golden.\n7. Cool slightly and serve.",
+    "prep_time": "10 mins",
+    "cook_time": "12 mins",
+    "servings": "12 cookies",
+    "nutrition": "Approx. 120 kcal per cookie",
+    "image": "https://source.unsplash.com/600x400/?chocolate-chip-cookies"
+  },
+  {
+    "name": "Avocado Toast",
+    "ingredients": [
+      "2 slices bread",
+      "1 ripe avocado",
+      "Salt",
+      "Black pepper",
+      "Lemon juice",
+      "Chili flakes (optional)"
+    ],
+    "recipe": "1. Toast bread slices.\n2. Mash avocado, mix with salt, pepper, and lemon juice.\n3. Spread avocado mixture on toast.\n4. Sprinkle chili flakes if desired.\n5. Serve immediately.",
+    "prep_time": "5 mins",
+    "cook_time": "2 mins",
+    "servings": "2",
+    "nutrition": "Approx. 180 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?avocado-toast"
+  },
+  {
+    "name": "Pesto Pasta",
+    "ingredients": [
+      "200g pasta",
+      "1/2 cup basil pesto",
+      "1 tbsp olive oil",
+      "Parmesan cheese",
+      "Salt",
+      "Pepper"
+    ],
+    "recipe": "1. Cook pasta in salted water until al dente, drain.\n2. Toss pasta with olive oil and pesto.\n3. Season with salt and pepper.\n4. Serve with grated Parmesan on top.",
+    "prep_time": "5 mins",
+    "cook_time": "10 mins",
+    "servings": "2",
+    "nutrition": "Approx. 400 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?pesto-pasta"
+  },
+  {
+    "name": "Beef Stir-Fry",
+    "ingredients": [
+      "250g beef strips",
+      "1 bell pepper",
+      "1 onion",
+      "2 cloves garlic",
+      "2 tbsp soy sauce",
+      "1 tbsp oyster sauce",
+      "1 tbsp oil",
+      "Salt",
+      "Black pepper"
+    ],
+    "recipe": "1. Heat oil in a wok, sauté garlic until fragrant.\n2. Add beef strips, season with salt and pepper, cook until browned.\n3. Add sliced bell pepper and onion, stir-fry for 3–4 minutes.\n4. Add soy sauce and oyster sauce, toss well.\n5. Serve hot with steamed rice or noodles.",
+    "prep_time": "10 mins",
+    "cook_time": "15 mins",
+    "servings": "2",
+    "nutrition": "Approx. 350 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?beef-stir-fry"
+  },
+  {
+    "name": "Chicken Caesar Wrap",
+    "ingredients": [
+      "2 large tortillas",
+      "150g grilled chicken",
+      "Lettuce",
+      "Parmesan cheese",
+      "Caesar dressing",
+      "Salt",
+      "Black pepper"
+    ],
+    "recipe": "1. Slice grilled chicken.\n2. Place lettuce, chicken, and Parmesan on a tortilla.\n3. Drizzle Caesar dressing, season with salt and pepper.\n4. Roll tightly and serve immediately.",
+    "prep_time": "5 mins",
+    "cook_time": "0 mins",
+    "servings": "2",
+    "nutrition": "Approx. 300 kcal per wrap",
+    "image": "https://source.unsplash.com/600x400/?chicken-wrap"
+  },
+  {
+    "name": "Veggie Fried Noodles",
+    "ingredients": [
+      "200g noodles",
+      "1 cup mixed vegetables",
+      "2 cloves garlic",
+      "2 tbsp soy sauce",
+      "1 tbsp sesame oil",
+      "Salt",
+      "Pepper"
+    ],
+    "recipe": "1. Cook noodles according to package instructions, drain.\n2. Heat sesame oil in a pan, sauté garlic.\n3. Add vegetables, cook 3–4 minutes.\n4. Add noodles and soy sauce, stir-fry for 2–3 minutes.\n5. Season with salt and pepper and serve hot.",
+    "prep_time": "5 mins",
+    "cook_time": "10 mins",
+    "servings": "2",
+    "nutrition": "Approx. 300 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?vegetable-noodles"
+  },
+  {
+    "name": "Cheeseburger",
+    "ingredients": [
+      "2 burger buns",
+      "200g beef patty",
+      "Cheese slice",
+      "Lettuce",
+      "Tomato",
+      "Onion",
+      "Ketchup or mayo",
+      "Salt",
+      "Pepper"
+    ],
+    "recipe": "1. Season beef patty with salt and pepper, grill until cooked.\n2. Toast buns lightly.\n3. Assemble burger with lettuce, tomato, onion, patty, cheese, and sauce.\n4. Serve immediately with fries or salad.",
+    "prep_time": "10 mins",
+    "cook_time": "15 mins",
+    "servings": "2",
+    "nutrition": "Approx. 500 kcal per burger",
+    "image": "https://source.unsplash.com/600x400/?cheeseburger"
+  },
+  {
+    "name": "Shrimp Scampi",
+    "ingredients": [
+      "250g shrimp",
+      "2 cloves garlic",
+      "2 tbsp butter",
+      "1 tbsp olive oil",
+      "1/4 cup white wine",
+      "Lemon juice",
+      "Salt",
+      "Black pepper",
+      "Parsley",
+      "200g pasta"
+    ],
+    "recipe": "1. Cook pasta until al dente, drain.\n2. Heat olive oil and butter, sauté garlic.\n3. Add shrimp, cook 3–4 minutes until pink.\n4. Pour in white wine and lemon juice, simmer 2 minutes.\n5. Toss in pasta, season with salt and pepper.\n6. Garnish with parsley and serve hot.",
+    "prep_time": "10 mins",
+    "cook_time": "15 mins",
+    "servings": "2",
+    "nutrition": "Approx. 400 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?shrimp-scampi"
+  },
+  {
+    "name": "Tuna Salad",
+    "ingredients": [
+      "1 can tuna",
+      "1/2 cup mayonnaise",
+      "1 celery stalk",
+      "1/4 onion",
+      "Salt",
+      "Black pepper",
+      "Lettuce leaves"
+    ],
+    "recipe": "1. Drain tuna and place in a bowl.\n2. Finely chop celery and onion, add to tuna.\n3. Mix in mayonnaise, season with salt and pepper.\n4. Serve on lettuce leaves or bread slices.",
+    "prep_time": "5 mins",
+    "cook_time": "0 mins",
+    "servings": "2",
+    "nutrition": "Approx. 200 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?tuna-salad"
+  },
+  {
+    "name": "Fruit Salad",
+    "ingredients": [
+      "1 apple",
+      "1 banana",
+      "1 cup grapes",
+      "1 orange",
+      "1 tbsp honey",
+      "Lemon juice"
+    ],
+    "recipe": "1. Chop all fruits into bite-sized pieces.\n2. Drizzle honey and lemon juice.\n3. Toss gently and serve chilled.",
+    "prep_time": "5 mins",
+    "cook_time": "0 mins",
+    "servings": "2",
+    "nutrition": "Approx. 120 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?fruit-salad"
+  },
+  {
+    "name": "Pasta Primavera",
+    "ingredients": [
+      "200g pasta",
+      "1 cup mixed vegetables",
+      "2 cloves garlic",
+      "2 tbsp olive oil",
+      "Salt",
+      "Black pepper",
+      "Parmesan cheese"
+    ],
+    "recipe": "1. Cook pasta until al dente, drain.\n2. Heat olive oil, sauté garlic.\n3. Add vegetables, cook until tender.\n4. Toss pasta with vegetables, season with salt and pepper.\n5. Serve hot with Parmesan cheese.",
+    "prep_time": "10 mins",
+    "cook_time": "15 mins",
+    "servings": "2",
+    "nutrition": "Approx. 350 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?pasta-primavera"
+  },
+  {
+    "name": "Chocolate Milkshake",
+    "ingredients": [
+      "2 cups milk",
+      "2 scoops chocolate ice cream",
+      "2 tbsp chocolate syrup",
+      "Whipped cream (optional)"
+    ],
+    "recipe": "1. Blend milk, chocolate ice cream, and chocolate syrup until smooth.\n2. Pour into glasses, top with whipped cream.\n3. Serve immediately.",
+    "prep_time": "5 mins",
+    "cook_time": "0 mins",
+    "servings": "2",
+    "nutrition": "Approx. 250 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?chocolate-milkshake"
+  },
+  {
+    "name": "Chicken Fried Rice",
+    "ingredients": [
+      "2 cups cooked rice",
+      "150g cooked chicken",
+      "1/2 cup peas and carrots",
+      "2 eggs",
+      "2 cloves garlic",
+      "2 tbsp soy sauce",
+      "1 tbsp oil",
+      "Salt",
+      "Pepper"
+    ],
+    "recipe": "1. Heat oil in a pan, sauté garlic until fragrant.\n2. Add vegetables and cook 2–3 minutes.\n3. Push veggies aside, scramble eggs in the pan.\n4. Add cooked rice and chicken, mix well.\n5. Pour soy sauce, season with salt and pepper.\n6. Stir-fry for 3–4 minutes and serve hot.",
+    "prep_time": "10 mins",
+    "cook_time": "10 mins",
+    "servings": "2",
+    "nutrition": "Approx. 400 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?chicken-fried-rice"
+  },
+  {
+    "name": "Grilled Salmon",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 tbsp olive oil",
+      "1 clove garlic",
+      "Salt",
+      "Pepper",
+      "Lemon slices",
+      "Fresh herbs (optional)"
+    ],
+    "recipe": "1. Preheat grill or oven to 200°C (400°F).\n2. Rub salmon with olive oil, minced garlic, salt, and pepper.\n3. Place lemon slices on top.\n4. Grill or bake for 10–12 minutes until cooked.\n5. Garnish with fresh herbs and serve hot.",
+    "prep_time": "5 mins",
+    "cook_time": "12 mins",
+    "servings": "2",
+    "nutrition": "Approx. 300 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?grilled-salmon"
+  },
+  {
+    "name": "Lemon Garlic Pasta",
+    "ingredients": [
+      "200g pasta",
+      "2 cloves garlic",
+      "2 tbsp olive oil",
+      "1 tbsp butter",
+      "Juice of 1 lemon",
+      "Salt",
+      "Pepper",
+      "Parsley"
+    ],
+    "recipe": "1. Cook pasta until al dente, drain.\n2. Heat olive oil and butter, sauté garlic.\n3. Add cooked pasta, lemon juice, salt, and pepper.\n4. Toss well, garnish with parsley.\n5. Serve hot.",
+    "prep_time": "5 mins",
+    "cook_time": "10 mins",
+    "servings": "2",
+    "nutrition": "Approx. 350 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?lemon-garlic-pasta"
+  },
+  {
+    "name": "Mushroom Risotto",
+    "ingredients": [
+      "1 cup arborio rice",
+      "1 cup mushrooms",
+      "1 onion",
+      "2 cloves garlic",
+      "3 cups vegetable broth",
+      "2 tbsp butter",
+      "1/4 cup Parmesan cheese",
+      "Salt",
+      "Pepper"
+    ],
+    "recipe": "1. Heat butter in a pan, sauté onion and garlic.\n2. Add mushrooms and cook until tender.\n3. Add rice, stir to coat with butter.\n4. Gradually add vegetable broth, stirring constantly until rice is creamy and cooked.\n5. Mix in Parmesan, season with salt and pepper.\n6. Serve hot.",
+    "prep_time": "10 mins",
+    "cook_time": "20 mins",
+    "servings": "2",
+    "nutrition": "Approx. 400 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?mushroom-risotto"
+  },
+  {
+    "name": "Caprese Sandwich",
+    "ingredients": [
+      "2 slices bread",
+      "Tomato slices",
+      "Mozzarella slices",
+      "Fresh basil",
+      "2 tsp olive oil",
+      "Salt",
+      "Pepper"
+    ],
+    "recipe": "1. Toast bread lightly.\n2. Layer tomato, mozzarella, and basil on one slice.\n3. Drizzle olive oil, season with salt and pepper.\n4. Top with second slice of bread, serve immediately.",
+    "prep_time": "5 mins",
+    "cook_time": "2 mins",
+    "servings": "1",
+    "nutrition": "Approx. 250 kcal per sandwich",
+    "image": "https://source.unsplash.com/600x400/?caprese-sandwich"
+  },
+  {
+    "name": "Banana Pancakes",
+    "ingredients": [
+      "1 cup flour",
+      "1 banana",
+      "1 cup milk",
+      "1 egg",
+      "1 tbsp sugar",
+      "1 tsp baking powder",
+      "Butter for cooking",
+      "Maple syrup"
+    ],
+    "recipe": "1. Mash banana, mix with milk and egg.\n2. Combine flour, sugar, and baking powder.\n3. Add wet ingredients to dry, mix until smooth.\n4. Heat butter in pan, pour batter to form pancakes.\n5. Cook both sides until golden.\n6. Serve with maple syrup.",
+    "prep_time": "5 mins",
+    "cook_time": "10 mins",
+    "servings": "2",
+    "nutrition": "Approx. 250 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?banana-pancakes"
+  },
+  {
+    "name": "Spinach Smoothie",
+    "ingredients": [
+      "1 cup spinach leaves",
+      "1 banana",
+      "1/2 cup yogurt",
+      "1/2 cup milk",
+      "1 tbsp honey",
+      "Ice cubes"
+    ],
+    "recipe": "1. Blend spinach, banana, yogurt, milk, honey, and ice until smooth.\n2. Pour into glasses and serve chilled.",
+    "prep_time": "5 mins",
+    "cook_time": "0 mins",
+    "servings": "2",
+    "nutrition": "Approx. 150 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?spinach-smoothie"
+  },
+  {
+    "name": "Coconut Rice",
+    "ingredients": [
+      "1 cup basmati rice",
+      "1 cup coconut milk",
+      "1 cup water",
+      "1 tsp oil",
+      "Salt",
+      "Grated coconut for garnish"
+    ],
+    "recipe": "1. Rinse rice and soak 20 minutes.\n2. In a pot, combine rice, coconut milk, water, oil, and salt.\n3. Cook on medium heat until rice is fluffy.\n4. Garnish with grated coconut and serve.",
+    "prep_time": "5 mins",
+    "cook_time": "20 mins",
+    "servings": "2",
+    "nutrition": "Approx. 250 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?coconut-rice"
+  },
+  {
+    "name": "Egg Salad Sandwich",
+    "ingredients": [
+      "4 boiled eggs",
+      "2 tbsp mayonnaise",
+      "1 tsp mustard",
+      "Salt",
+      "Pepper",
+      "2 slices bread",
+      "Lettuce"
+    ],
+    "recipe": "1. Chop boiled eggs and mix with mayonnaise, mustard, salt, and pepper.\n2. Spread on bread slices.\n3. Add lettuce, top with second slice of bread.\n4. Serve immediately.",
+    "prep_time": "5 mins",
+    "cook_time": "0 mins",
+    "servings": "1",
+    "nutrition": "Approx. 250 kcal per sandwich",
+    "image": "https://source.unsplash.com/600x400/?egg-salad-sandwich"
+  },
+  {
+    "name": "BBQ Chicken Wings",
+    "ingredients": [
+      "500g chicken wings",
+      "3 tbsp BBQ sauce",
+      "1 tbsp oil",
+      "Salt",
+      "Pepper"
+    ],
+    "recipe": "1. Preheat oven to 200°C (400°F).\n2. Toss chicken wings with oil, salt, and pepper.\n3. Arrange on baking tray, bake 25–30 minutes.\n4. Brush BBQ sauce on wings, bake 5 more minutes.\n5. Serve hot.",
+    "prep_time": "5 mins",
+    "cook_time": "35 mins",
+    "servings": "2",
+    "nutrition": "Approx. 300 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?bbq-chicken-wings"
+  },
+  {
+    "name": "Garlic Mashed Potatoes",
+    "ingredients": [
+      "4 potatoes",
+      "2 cloves garlic",
+      "2 tbsp butter",
+      "1/4 cup milk",
+      "Salt",
+      "Pepper"
+    ],
+    "recipe": "1. Boil peeled potatoes until soft.\n2. Mash with butter, milk, minced garlic, salt, and pepper.\n3. Serve warm.",
+    "prep_time": "10 mins",
+    "cook_time": "15 mins",
+    "servings": "4",
+    "nutrition": "Approx. 200 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?mashed-potatoes"
+  },
+  {
+    "name": "Veggie Omelette",
+    "ingredients": [
+      "3 eggs",
+      "1/4 cup chopped vegetables",
+      "Salt",
+      "Pepper",
+      "1 tbsp butter",
+      "Cheese (optional)"
+    ],
+    "recipe": "1. Beat eggs with salt and pepper.\n2. Heat butter, pour egg mixture.\n3. Add vegetables and cheese.\n4. Cook until eggs are set, fold and serve hot.",
+    "prep_time": "5 mins",
+    "cook_time": "5 mins",
+    "servings": "1",
+    "nutrition": "Approx. 200 kcal per omelette",
+    "image": "https://source.unsplash.com/600x400/?veggie-omelette"
+  },
+  {
+    "name": "Blueberry Muffins",
+    "ingredients": [
+      "1 1/2 cups flour",
+      "3/4 cup sugar",
+      "1/2 tsp salt",
+      "2 tsp baking powder",
+      "1/3 cup vegetable oil",
+      "1 egg",
+      "1/3 cup milk",
+      "1 cup blueberries"
+    ],
+    "recipe": "1. Preheat oven to 200°C (400°F).\n2. Mix flour, sugar, salt, and baking powder.\n3. Combine oil, egg, and milk, add to dry ingredients.\n4. Fold in blueberries.\n5. Pour into muffin cups, bake 20–25 minutes.\n6. Cool slightly and serve.",
+    "prep_time": "10 mins",
+    "cook_time": "25 mins",
+    "servings": "12",
+    "nutrition": "Approx. 150 kcal per muffin",
+    "image": "https://source.unsplash.com/600x400/?blueberry-muffins"
+  },
+  {
+    "name": "Grilled Vegetable Skewers",
+    "ingredients": [
+      "1 zucchini",
+      "1 bell pepper",
+      "1 onion",
+      "1 cup mushrooms",
+      "2 tbsp olive oil",
+      "Salt",
+      "Pepper",
+      "1 tsp herbs"
+    ],
+    "recipe": "1. Cut vegetables into chunks.\n2. Toss with olive oil, salt, pepper, and herbs.\n3. Thread onto skewers.\n4. Grill 10–12 minutes, turning occasionally.\n5. Serve hot as a side or main dish.",
+    "prep_time": "10 mins",
+    "cook_time": "12 mins",
+    "servings": "2",
+    "nutrition": "Approx. 120 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?grilled-vegetables"
+  },
+  {
+    "name": "Spicy Shrimp Tacos",
+    "ingredients": [
+      "6 small tortillas",
+      "200g shrimp",
+      "1 tsp chili powder",
+      "1/2 tsp paprika",
+      "1/2 cup cabbage",
+      "1/4 cup salsa",
+      "1 tbsp oil",
+      "Salt",
+      "Pepper"
+    ],
+    "recipe": "1. Season shrimp with chili powder, paprika, salt, and pepper.\n2. Heat oil, cook shrimp 3–4 minutes until pink.\n3. Warm tortillas.\n4. Fill tortillas with shrimp, cabbage, and salsa.\n5. Serve immediately.",
+    "prep_time": "10 mins",
+    "cook_time": "8 mins",
+    "servings": "3",
+    "nutrition": "Approx. 250 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?shrimp-tacos"
+  },
+  {
+    "name": "Pesto Pasta",
+    "ingredients": [
+      "200g pasta",
+      "3 tbsp pesto sauce",
+      "1 tbsp olive oil",
+      "Salt",
+      "Pepper",
+      "Parmesan cheese"
+    ],
+    "recipe": "1. Cook pasta until al dente, drain.\n2. Toss pasta with pesto sauce and olive oil.\n3. Season with salt and pepper.\n4. Serve hot with Parmesan cheese.",
+    "prep_time": "5 mins",
+    "cook_time": "10 mins",
+    "servings": "2",
+    "nutrition": "Approx. 350 kcal per serving",
+    "image": "https://source.unsplash.com/600x400/?pesto-pasta"
+  },
+  {
+    "name": "Carrot Cake",
+    "ingredients": [
+      "1 1/2 cups flour",
+      "1 cup sugar",
+      "1 tsp baking powder",
+      "1/2 tsp baking soda",
+      "1/2 tsp salt",
+      "2 tsp cinnamon",
+      "2 eggs",
+      "1/2 cup oil",
+      "1 cup grated carrots",
+      "1/2 cup walnuts (optional)"
+    ],
+    "recipe": "1. Preheat oven to 175°C (350°F).\n2. Mix flour, sugar, baking powder, baking soda, salt, and cinnamon.\n3. Beat eggs and oil, add to dry ingredients.\n4. Fold in grated carrots and walnuts.\n5. Pour into greased pan, bake 30–35 minutes.\n6. Cool, slice, and serve.",
+    "prep_time": "10 mins",
+    "cook_time": "35 mins",
+    "servings": "8",
+    "nutrition": "Approx. 200 kcal per slice",
+    "image": "https://source.unsplash.com/600x400/?carrot-cake"
   }
 ]
+
+
+
+
+
+
